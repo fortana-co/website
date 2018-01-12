@@ -3,37 +3,33 @@
 }
 
 .arrow {
-  background: url('../assets/images/arrow.svg') no-repeat;
-  background-size: 11px 32px;
   width: 11px;
   height: 32px;
 }
 
+.arrow.green {
+  background: url('../assets/images/arrow-green.svg') no-repeat;
+  background-size: 11px 32px;
+}
+
+.arrow.orange {
+  background: url('../assets/images/arrow-orange.svg') no-repeat;
+  background-size: 11px 32px;
+}
+
 .underscore {
-  background: url('../assets/images/underscore.svg') no-repeat;
-  background-size: 17px 4px;
   width: 17px;
   height: 4px;
 }
 
-.arrow#one {
-  top: 344px;
+.underscore.green {
+  background: url('../assets/images/underscore-green.svg') no-repeat;
+  background-size: 17px 4px;
 }
 
-.note#one {
-  top: 670px;
-}
-
-.underscore {
-  top: 610px;
-}
-
-.arrow#two {
-  top: 194px;
-}
-
-.note#two {
-  top: 622px;
+.underscore.orange {
+  background: url('../assets/images/underscore-orange.svg') no-repeat;
+  background-size: 17px 4px;
 }
 
 

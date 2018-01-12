@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input, textarea {
+  border: none;
+}
+
+input[type=text], textarea {
+  @include din-regular;
+  @include antialiased;
+  font-size: 18px;
+  color: #B9B9BA;
+  background-color: #F7F7F7;
+  width: 100%;
+  box-sizing: border-box;
+  &:focus {
+    background-color: darken(#F7F7F7, 1%);
+  }
+}
+
+input[type=text] {
+  margin-bottom: 16px;
+  padding: 22px 0 20px 23px;
+}
+
+textarea {
+  height: 112px;
+  margin-bottom: 32px;
+  padding: 17px 23px 0 23px;
+  resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+  @include din-regular;
+  @include antialiased;
+  font-size: 18px;
+  line-height: 32px;
+  color: #B9B9BA;
+  position: relative;
+}
+
+input[type=submit] {
+  @include din-bold;
+  @include antialiased;
+  font-size: 13px;
+  letter-spacing: 1.81px;
+  line-height: 32px;
+  color: white;
+  background-color: #60C4AB;
+  width: 143px;
+  padding: 12px 0;
+  cursor: pointer;
+  &:hover {
+    background-color: $green-1;
+  }
+}

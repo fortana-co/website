@@ -93,11 +93,21 @@
 		"oAP": "\/public\/assets\/fonts\/neuzeit\/bold.woff2",
 		"oF": 0
 		},
-	"\/public\/assets\/images\/arrow.svg": {
+	"\/public\/assets\/images\/arrow-green.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/assets\/images\/arrow.svg",
+		"oAP": "\/public\/assets\/images\/arrow-green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/assets\/images\/arrow-orange.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/assets\/images\/arrow-orange.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -151,16 +161,26 @@
 		"oA": 0,
 		"oAP": "\/public\/assets\/images\/requester-device.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/assets\/images\/underscore.svg": {
+	"\/public\/assets\/images\/underscore-green.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/assets\/images\/underscore.svg",
+		"oAP": "\/public\/assets\/images\/underscore-green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/assets\/images\/underscore-orange.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/assets\/images\/underscore-orange.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
