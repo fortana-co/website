@@ -1,0 +1,91 @@
+#index {
+  header {
+    background-color: white;
+  }
+}
+
+#asistia {
+  background-color: #F7F7F7;
+  height: 840px;
+  padding-top: 234px;
+  box-sizing: border-box;
+  .device {
+    width: 390px;
+    height: 792px;
+    margin-top: -466px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#opi {
+  background-color: white;
+  padding: 362px 0 293px 0;
+  .device {
+    background: url('../assets/images/opi-device.png') no-repeat;
+    background-size: 1033px 1072px;
+    width: 1033px;
+    height: 1072px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: -106px;
+    z-index: 0;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#requester {
+  background-color: #F7F7F7;
+  padding: 231px 0 249px 0;
+  position: relative;
+  z-index: 1;
+  .device {
+    background: url('../assets/images/requester-device.png') no-repeat;
+    background-size: 1055px 1135px;
+    width: 1055px;
+    height: 1135px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: -82px;
+    z-index: 0;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#services {
+  background-color: #273348;
+  padding-top: 231px;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1440px) {
+  #index {
+    header {
+      padding: 56px 0 244px;
+    }
+  }
+  h2 {
+    width: 87%;
+    margin-top: -63px;
+  }
+  #asistia {
+    h3 {
+      width: 90%;
+    }
+  }
+  #opi {
+    p {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 900px) {
+  #index {
+    header {
+    padding: 56px 0 117px;
+    }
+  }
+}

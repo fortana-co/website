@@ -1,0 +1,21 @@
+#nav {
+  align-items: center;
+  li {
+    display: inline-flex;
+  }
+  li:not(:last-child) {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #nav {
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width: 900px) {
+  #nav {
+    margin-bottom: 139px;
+  }
+}

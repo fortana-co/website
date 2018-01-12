@@ -1,0 +1,89 @@
+h1 {
+  @include neuzeit-bold;
+  font-size: 80px;
+  color: #2B2C30;
+  line-height: 88px;
+}
+
+h2 {
+  @include din-light;
+  @include antialiased;
+  font-size: 42px;
+  color: #404144;
+  line-height: 56px;
+}
+
+h3 {
+  @include neuzeit-bold;
+  font-size: 48px;
+  color: #2B2C30;
+  line-height: 56px;
+}
+
+h4 {
+  @include din-bold;
+  font-size: 17px;
+  color: #E9EBED;
+  letter-spacing: 0.8px;
+  line-height: 32px;
+}
+
+p {
+  @include din-regular;
+  @include antialiased;
+  font-size: 20px;
+  color: #535457;
+  line-height: 36px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link {
+  @include din-bold;
+  @include antialiased;
+  line-height: 32px;
+}
+
+#nav .link {
+  font-size: 13px;
+  color: #606164;
+  letter-spacing: 1.81px;
+  text-transform: uppercase;
+}
+
+section .link {
+  font-size: 14px;
+  color: #47BA9D;
+  letter-spacing: 1.95px;
+  display: flex;
+  align-items: center;
+  &:before {
+    content: '';
+    background: url('../assets/images/link-arrow.svg') no-repeat;
+    background-size: 11px 11px;
+    width: 11px;
+    height: 11px;
+    display: inline-flex;
+    margin-right: 8px;
+  }
+}
+
+.note {
+  @include din-medium;
+  @include antialiased;
+  font-size: 14px;
+  color: #404144;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  h3 {
+    margin-bottom: 23px;
+  }
+  p {
+    margin-bottom: 24px;
+  }
+}

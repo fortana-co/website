@@ -1,0 +1,133 @@
+// FONT-FACE
+
+@mixin font-face($style-name, $file, $family, $category:'') {
+    $filepath: '../assets/fonts/' + $family + '/' + $file;
+    @font-face {
+        font-family: $style-name;
+        src: url($filepath + '.woff') format('woff'),
+        url($filepath + '.woff2') format('woff'),
+        url($filepath + '.ttf') format('truetype');
+    }
+}
+
+// DIN
+@include font-face('din-light', 'light', 'din', 'sans-serif');
+@include font-face('din-regular', 'regular', 'din', 'sans-serif');
+@include font-face('din-medium', 'medium', 'din', 'sans-serif');
+@include font-face('din-bold', 'bold', 'din', 'sans-serif');
+
+@mixin din-light {
+    font-family: 'din-light', sans-serif;
+}
+
+@mixin din-regular {
+    font-family: 'din-regular', sans-serif;
+}
+
+@mixin din-medium {
+    font-family: 'din-medium', sans-serif;
+}
+
+@mixin din-bold {
+    font-family: 'din-bold', sans-serif;
+}
+
+// NEUZEIT GROTESK
+@include font-face('neuzeit-bold', 'bold', 'neuzeit', 'sans-serif');
+
+@mixin neuzeit-bold {
+    font-family: 'neuzeit-bold', sans-serif;
+}
+
+// HELPERS
+@mixin text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// FLEXBOX
+
+@mixin flexbox {
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+}
+
+@mixin flex($a, $b, $c) {
+    -webkit-flex: $a $b $c;
+    -ms-flex: $a $b $c;
+    -moz-flex: $a $b $c;
+    -webkit-box-flex: $a $b $c;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: $a $b $c;
+    /* OLD - Firefox 19- */
+    flex: $a $b $c;
+}
+
+@mixin flex-direction($a) {
+    -webkit-flex-direction: $a;
+    -ms-flex-direction: $a;
+    -moz-flex-direction: $a;
+    flex-direction: $a;
+}
+
+@mixin flex-wrap($a) {
+    -webkit-flex-wrap: $a;
+    -ms-flex-wrap: $a;
+    -moz-flex-wrap: $a;
+    flex-wrap: $a;
+}
+
+@mixin flex-grow($a) {
+    -webkit-flex-grow: $a;
+    -ms-flex-grow: $a;
+    -moz-flex-grow: $a;
+    flex-grow: $a;
+}
+
+@mixin flex-basis($a) {
+    -webkit-flex-basis: $a;
+    -ms-flex-basis: $a;
+    -moz-flex-basis: $a;
+    flex-basis: $a;
+}
+
+@mixin order($a) {
+    -webkit-box-ordinal-group: $a;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-ordinal-group: $a;
+    /* OLD - Firefox 19- */
+    -ms-flex-order: $a;
+    /* TWEENER - IE 10 */
+    -webkit-order: $a;
+    /* NEW - Chrome */
+    order: $a;
+}
+
+@mixin justify-content($a) {
+    -webkit-box-justify-content: $a;
+    -moz-box-justify-content: $a;
+    -ms-justify-content: $a;
+    -webkit-justify-content: $a;
+    justify-content: $a;
+}
+
+@mixin align-items($a) {
+    -webkit-box-align-items: $a;
+    -moz-box-align-items: $a;
+    -ms-align-items: $a;
+    -webkit-align-items: $a;
+    align-items: $a;
+}
