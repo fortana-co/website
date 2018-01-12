@@ -1,39 +1,29 @@
 h1 {
   @include neuzeit-bold;
-  font-size: 80px;
   color: #2B2C30;
-  line-height: 88px;
 }
 
 h2 {
   @include din-light;
   @include antialiased;
-  font-size: 42px;
   color: #404144;
-  line-height: 56px;
 }
 
 h3 {
   @include neuzeit-bold;
-  font-size: 48px;
   color: #2B2C30;
-  line-height: 56px;
 }
 
 h4 {
   @include din-bold;
-  font-size: 17px;
   color: #E9EBED;
   letter-spacing: 0.8px;
-  line-height: 32px;
 }
 
 p {
   @include din-regular;
   @include antialiased;
-  font-size: 20px;
   color: #535457;
-  line-height: 36px;
 }
 
 a {
@@ -44,14 +34,11 @@ a {
 .link {
   @include din-bold;
   @include antialiased;
-  line-height: 32px;
   cursor: pointer;
 }
 
 #nav .link {
-  font-size: 13px;
   color: #606164;
-  letter-spacing: 1.81px;
   text-transform: uppercase;
   &:hover {
     color: $green-2;
@@ -59,19 +46,13 @@ a {
 }
 
 section .link {
-  font-size: 14px;
   color: #47BA9D;
-  letter-spacing: 1.95px;
   display: flex;
   align-items: center;
   &:before {
     content: '';
     background: url('../assets/images/link-arrow.svg') no-repeat;
-    background-size: 11px 11px;
-    width: 11px;
-    height: 11px;
     display: inline-flex;
-    margin-right: 8px;
   }
   &:hover {
     color: $green-2;
@@ -81,7 +62,103 @@ section .link {
 .note {
   @include din-medium;
   @include antialiased;
-  font-size: 14px;
   color: #404144;
+}
+
+
+// LARGE SCREENS
+@media screen and (min-width: 1280px) {
+h1 {
+  font-size: 80px
+  line-height: 88px;
+}
+h2 {
+  font-size: 42px
+  line-height: 56px;
+}
+h3 {
+  font-size: 48px
+  line-height: 56px;
+}
+h4 {
+  font-size: 17px
+  letter-spacing: 0.8px;
+  line-height: 32px;
+}
+p {
+  font-size: 20px
+  line-height: 36px;
+}
+.link {
+  line-height: 32px;
+}
+#nav .link {
+  font-size: 13px
+  letter-spacing: 1.81px;
+}
+section .link {
+  font-size: 14px
+  letter-spacing: 1.95px;
+  display: flex;
+  align-items: center;
+  &:before {
+    background-size: 11px 11px;
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+  }
+}
+.note {
+  font-size: 14px
   line-height: 24px;
+}
+}
+
+
+// MEDIUM SCREENS
+@media screen and (max-width: 1279px) and (min-width: 900px) {
+h1 {
+  font-size: 74px;
+  line-height: 80px;
+}
+h2 {
+  font-size: 37px;
+  line-height: 48px;
+}
+h3 {
+  font-size: 48px
+  line-height: 56px;
+}
+h4 {
+  font-size: 17px
+  letter-spacing: 0.8px;
+  line-height: 32px;
+}
+p {
+  font-size: 20px
+  line-height: 36px;
+}
+.link {
+  line-height: 32px;
+}
+#nav .link {
+  font-size: 13px
+  letter-spacing: 1.81px;
+}
+section .link {
+  font-size: 14px
+  letter-spacing: 1.95px;
+  display: flex;
+  align-items: center;
+  &:before {
+    background-size: 11px 11px;
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+  }
+}
+.note {
+  font-size: 14px
+  line-height: 24px;
+}
 }

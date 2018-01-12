@@ -559,7 +559,7 @@ table {
     /* NEW - Chrome */
     order: 1; } }
 
-@media screen and (max-width: 1439px) and (min-width: 900px) {
+@media screen and (max-width: 1279px) and (min-width: 900px) {
   .wrapper {
     padding-left: 40px;
     padding-right: 40px; }
@@ -806,7 +806,7 @@ table {
     /* NEW - Chrome */
     order: 1; } }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .wrapper {
     padding-left: 90px;
     padding-right: 90px; }
@@ -1133,6 +1133,14 @@ section .link {
   color: #404144;
   line-height: 24px; }
 
+@media screen and (max-width: 1279px) and (min-width: 900px) {
+  h1 {
+    font-size: 74px;
+    line-height: 80px; }
+  h2 {
+    font-size: 37px;
+    line-height: 48px; } }
+
 .arrow, .underscore, .note {
   position: absolute; }
 
@@ -1221,45 +1229,28 @@ input[type=submit] {
   #nav li:not(:last-child) {
     margin-right: 70px; }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   #nav {
     margin-bottom: 150px; } }
 
-@media screen and (max-width: 1439px) and (min-width: 900px) {
+@media screen and (max-width: 1279px) and (min-width: 900px) {
   #nav {
     margin-bottom: 139px; } }
 
 #index header {
   background-color: white; }
 
-#index h3 {
-  margin-bottom: 23px; }
-
-#index h3 + p {
-  margin-bottom: 24px; }
-
 #asistia {
   background-color: #F7F7F7;
   box-sizing: border-box; }
-  #asistia .device {
-    width: 390px;
-    height: 792px;
-    margin-top: -466px;
-    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
 
 #opi {
   background-color: white; }
   #opi .device {
-    background: url("../assets/images/opi-device.png") no-repeat;
-    background-size: 1033px 1072px;
-    width: 1033px;
-    height: 1072px;
     display: flex;
     position: absolute;
-    right: 0;
-    top: -106px;
     z-index: 0;
-    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+    background: url("../assets/images/opi-device.png") no-repeat; }
 
 #requester {
   background-color: #F7F7F7;
@@ -1267,16 +1258,10 @@ input[type=submit] {
   z-index: 1;
   overflow: hidden; }
   #requester .device {
-    background: url("../assets/images/requester-device.png") no-repeat;
-    background-size: 1055px 1135px;
-    width: 1055px;
-    height: 1135px;
     display: flex;
     position: absolute;
-    left: 0;
-    top: -82px;
     z-index: 0;
-    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+    background: url("../assets/images/requester-device.png") no-repeat; }
 
 #services {
   background-color: #273348;
@@ -1285,18 +1270,11 @@ input[type=submit] {
   #services h3 {
     color: white; }
   #services h4 {
-    color: #E9EBED;
-    margin-bottom: 4px; }
+    color: #E9EBED; }
   #services p {
     color: #D4D6DA; }
-  #services .mvp + p, #services .expansion + p {
-    margin-bottom: 47px; }
-  #services .mvp, #services .expansion {
-    margin-top: -57px; }
-  #services .scale + p {
-    margin-bottom: 112px; }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   #index header {
     padding: 56px 0 244px; }
     #index header .arrow#one {
@@ -1309,20 +1287,43 @@ input[type=submit] {
       top: 194px; }
     #index header .note#two {
       top: 622px; }
-  h2 {
-    width: 87%;
-    margin-top: -63px; }
+    #index header h2 {
+      width: 87%;
+      margin-top: -63px; }
+  h3 {
+    margin-bottom: 23px; }
+  h3 + p {
+    margin-bottom: 24px; }
   #asistia {
     height: 840px;
     padding-top: 234px; }
     #asistia h3 {
       width: 90%; }
+    #asistia .device {
+      width: 390px;
+      height: 792px;
+      margin-top: -466px;
+      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #opi {
     padding: 362px 0 293px 0; }
+    #opi .device {
+      background-size: 1033px 1072px;
+      width: 1033px;
+      height: 1072px;
+      right: 0;
+      top: -106px;
+      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
     #opi p {
       width: 85%; }
   #requester {
     padding: 231px 0 249px 0; }
+    #requester .device {
+      background-size: 1055px 1135px;
+      width: 1055px;
+      height: 1135px;
+      left: 0;
+      top: -82px;
+      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #services {
     padding: 167px 0; }
     #services .underscore#one {
@@ -1333,6 +1334,14 @@ input[type=submit] {
       top: 121px; }
     #services .arrow#two {
       top: 1142px; }
+    #services h4 {
+      margin-bottom: 4px; }
+    #services .mvp + p, #services .expansion + p {
+      margin-bottom: 47px; }
+    #services .mvp, #services .expansion {
+      margin-top: -57px; }
+    #services .scale + p {
+      margin-bottom: 112px; }
   #close {
     padding: 147px 0 147px 0; }
     #close p:not(:last-child) {
@@ -1340,6 +1349,18 @@ input[type=submit] {
     #close form {
       margin-top: -432px; } }
 
-@media screen and (max-width: 1439px) and (min-width: 900px) {
+@media screen and (max-width: 1279px) and (min-width: 900px) {
   #index header {
-    padding: 56px 0 117px; } }
+    padding: 56px 0 190px; }
+    #index header .arrow#one {
+      top: 411px; }
+    #index header .note#one {
+      top: 513px; }
+    #index header .underscore {
+      top: 700px; }
+    #index header .arrow#two {
+      top: 146px; }
+    #index header .note#two {
+      top: 270px; }
+  h1 {
+    margin-bottom: 64px; } }

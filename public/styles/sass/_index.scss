@@ -1,39 +1,19 @@
-#index {
-  header {
-    background-color: white;
-  }
-  h3 {
-    margin-bottom: 23px;
-  }
-  h3 + p {
-    margin-bottom: 24px;
-  }
+#index header {
+  background-color: white;
 }
 
 #asistia {
   background-color: #F7F7F7;
   box-sizing: border-box;
-  .device {
-    width: 390px;
-    height: 792px;
-    margin-top: -466px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
 }
 
 #opi {
   background-color: white;
   .device {
-    background: url('../assets/images/opi-device.png') no-repeat;
-    background-size: 1033px 1072px;
-    width: 1033px;
-    height: 1072px;
     display: flex;
     position: absolute;
-    right: 0;
-    top: -106px;
     z-index: 0;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+    background: url('../assets/images/opi-device.png') no-repeat;
   }
 }
 
@@ -43,16 +23,10 @@
   z-index: 1;
   overflow: hidden;
   .device {
-    background: url('../assets/images/requester-device.png') no-repeat;
-    background-size: 1055px 1135px;
-    width: 1055px;
-    height: 1135px;
     display: flex;
     position: absolute;
-    left: 0;
-    top: -82px;
     z-index: 0;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+    background: url('../assets/images/requester-device.png') no-repeat;
   }
 }
 
@@ -65,10 +39,104 @@
   }
   h4 {
     color: $grey-1;
-    margin-bottom: 4px;
   }
   p {
     color: #D4D6DA;
+  }
+}
+
+
+// LARGE SCREENS
+@media screen and (min-width: 1280px) {
+
+#index header {
+  padding: 56px 0 244px;
+  .arrow#one {
+    top: 344px;
+  }
+  .note#one {
+    top: 670px;
+  }
+  .underscore {
+    top: 610px;
+  }
+  .arrow#two {
+    top: 194px;
+  }
+  .note#two {
+    top: 622px;
+  }
+  h2 {
+  width: 87%;
+  margin-top: -63px;
+  }
+}
+
+h3 {
+  margin-bottom: 23px;
+}
+
+h3 + p {
+  margin-bottom: 24px;
+}
+
+#asistia {
+  height: 840px;
+  padding-top: 234px;
+  h3 {
+    width: 90%;
+  }
+  .device {
+    width: 390px;
+    height: 792px;
+    margin-top: -466px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#opi {
+  padding: 362px 0 293px 0;
+  .device {
+    background-size: 1033px 1072px;
+    width: 1033px;
+    height: 1072px;
+    right: 0;
+    top: -106px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+  p {
+    width: 85%;
+  }
+}
+
+#requester {
+  padding: 231px 0 249px 0;
+  .device {
+    background-size: 1055px 1135px;
+    width: 1055px;
+    height: 1135px;
+    left: 0;
+    top: -82px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#services {
+  padding: 167px 0;
+  .underscore#one {
+    top: 969px;
+  }
+  .arrow#one {
+    top: 550px;
+  }
+  .underscore#two {
+    top: 121px;
+  }
+  .arrow#two {
+    top: 1142px;
+  }
+  h4 {
+    margin-bottom: 4px;
   }
   .mvp + p, .expansion + p {
     margin-bottom: 47px;
@@ -81,75 +149,40 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  #index header {
-    padding: 56px 0 244px;
-    .arrow#one {
-      top: 344px;
-    }
-    .note#one {
-      top: 670px;
-    }
-    .underscore {
-      top: 610px;
-    }
-    .arrow#two {
-      top: 194px;
-    }
-    .note#two {
-      top: 622px;
-    }
+#close {
+  padding: 147px 0 147px 0;
+  p:not(:last-child) {
+    margin-bottom: 16px;
   }
-  h2 {
-    width: 87%;
-    margin-top: -63px;
-  }
-  #asistia {
-    height: 840px;
-    padding-top: 234px;
-    h3 {
-      width: 90%;
-    }
-  }
-  #opi {
-    padding: 362px 0 293px 0;
-    p {
-      width: 85%;
-    }
-  }
-  #requester {
-    padding: 231px 0 249px 0;
-  }
-  #services {
-    padding: 167px 0;
-    .underscore#one {
-      top: 969px;
-    }
-    .arrow#one {
-      top: 550px;
-    }
-    .underscore#two {
-      top: 121px;
-    }
-    .arrow#two {
-      top: 1142px;
-    }
-  }
-  #close {
-    padding: 147px 0 147px 0;
-    p:not(:last-child) {
-      margin-bottom: 16px;
-    }
-    form {
-      margin-top: -432px;
-    }
+  form {
+    margin-top: -432px;
   }
 }
+}
 
-@media screen and (max-width: 1439px) and (min-width: 900px) {
-  #index {
-    header {
-    padding: 56px 0 117px;
-    }
+
+// MEDIUM SCREENS
+@media screen and (max-width: 1279px) and (min-width: 900px) {
+
+#index header {
+  padding: 56px 0 190px;
+  .arrow#one {
+    top: 411px;
   }
+  .note#one {
+    top: 513px;
+  }
+  .underscore {
+    top: 700px;
+  }
+  .arrow#two {
+    top: 146px;
+  }
+  .note#two {
+    top: 270px;
+  }
+}
+h1 {
+  margin-bottom: 64px;
+}
 }
