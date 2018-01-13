@@ -69,38 +69,36 @@ section .link {
 // LARGE SCREENS
 @media screen and (min-width: 1280px) {
 h1 {
-  font-size: 80px
+  font-size: 80px;
   line-height: 88px;
 }
 h2 {
-  font-size: 42px
+  font-size: 42px;
   line-height: 56px;
 }
 h3 {
-  font-size: 48px
+  font-size: 48px;
   line-height: 56px;
 }
 h4 {
-  font-size: 17px
+  font-size: 17px;
   letter-spacing: 0.8px;
   line-height: 32px;
 }
 p {
-  font-size: 20px
+  font-size: 20px;
   line-height: 36px;
 }
 .link {
   line-height: 32px;
 }
 #nav .link {
-  font-size: 13px
+  font-size: 13px;
   letter-spacing: 1.81px;
 }
 section .link {
-  font-size: 14px
+  font-size: 14px;
   letter-spacing: 1.95px;
-  display: flex;
-  align-items: center;
   &:before {
     background-size: 11px 11px;
     width: 11px;
@@ -109,7 +107,7 @@ section .link {
   }
 }
 .note {
-  font-size: 14px
+  font-size: 14px;
   line-height: 24px;
 }
 }
@@ -126,30 +124,28 @@ h2 {
   line-height: 48px;
 }
 h3 {
-  font-size: 48px
+  font-size: 44px;
   line-height: 56px;
 }
 h4 {
-  font-size: 17px
+  font-size: 17px;
   letter-spacing: 0.8px;
   line-height: 32px;
 }
 p {
-  font-size: 20px
+  font-size: 19px;
   line-height: 36px;
 }
 .link {
   line-height: 32px;
 }
 #nav .link {
-  font-size: 13px
+  font-size: 13px;
   letter-spacing: 1.81px;
 }
 section .link {
-  font-size: 14px
+  font-size: 14px;
   letter-spacing: 1.95px;
-  display: flex;
-  align-items: center;
   &:before {
     background-size: 11px 11px;
     width: 11px;
@@ -158,7 +154,54 @@ section .link {
   }
 }
 .note {
-  font-size: 14px
+  font-size: 14px;
+  line-height: 24px;
+}
+}
+
+
+// SMALL SCREENS
+@media screen and (max-width: 899px) and (min-width: 600px) {
+h1 {
+  font-size: 74px;
+  line-height: 76px;
+}
+h2 {
+  font-size: 37px;
+  line-height: 48px;
+}
+h3 {
+  font-size: 44px;
+  line-height: 56px;
+}
+h4 {
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  line-height: 32px;
+}
+p {
+  font-size: 19px;
+  line-height: 36px;
+}
+.link {
+  line-height: 32px;
+}
+#nav .link {
+  font-size: 12px;
+  letter-spacing: 1.67px;
+}
+section .link {
+  font-size: 14px;
+  letter-spacing: 1.95px;
+  &:before {
+    background-size: 11px 11px;
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+  }
+}
+.note {
+  font-size: 13px;
   line-height: 24px;
 }
 }

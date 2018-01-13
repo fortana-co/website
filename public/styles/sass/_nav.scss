@@ -12,10 +12,28 @@
   #nav {
     margin-bottom: 150px;
   }
+  #logo img {
+    width: 88px;
+    height: 15px;
+  }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 900px) {
   #nav {
     margin-bottom: 139px;
+  }
+  #logo img {
+    width: 88px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 899px) and (min-width: 600px) {
+  #nav {
+    margin-bottom: 116px;
+  }
+  #logo img {
+    width: 80px;
+    height: 14px;
   }
 }

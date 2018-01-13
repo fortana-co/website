@@ -16,7 +16,7 @@ input[type=text], textarea {
   background-color: #F7F7F7;
   width: 100%;
   box-sizing: border-box;
-  &:focus {
+  &:focus, &:hover {
     background-color: darken(#F7F7F7, 1%);
   }
 }
@@ -55,5 +55,16 @@ input[type=submit] {
   cursor: pointer;
   &:hover {
     background-color: $green-1;
+  }
+}
+
+
+// MEDIUM SCREENS
+@media screen and (max-width: 1279px) and (min-width: 900px) {
+  form {
+    align-items: flex-start;
+  }
+  input[type=text], textarea {
+    font-size: 17px;
   }
 }

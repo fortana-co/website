@@ -45,6 +45,9 @@
   }
 }
 
+#close p:not(:last-child) {
+  margin-bottom: 16px;
+}
 
 // LARGE SCREENS
 @media screen and (min-width: 1280px) {
@@ -52,7 +55,7 @@
 #index header {
   padding: 56px 0 244px;
   .arrow#one {
-    top: 344px;
+    top: 334px;
   }
   .note#one {
     top: 670px;
@@ -61,7 +64,7 @@
     top: 610px;
   }
   .arrow#two {
-    top: 194px;
+    top: 184px;
   }
   .note#two {
     top: 622px;
@@ -127,13 +130,13 @@ h3 + p {
     top: 969px;
   }
   .arrow#one {
-    top: 550px;
+    top: 540px;
   }
   .underscore#two {
     top: 121px;
   }
   .arrow#two {
-    top: 1142px;
+    top: 1132px;
   }
   h4 {
     margin-bottom: 4px;
@@ -151,9 +154,6 @@ h3 + p {
 
 #close {
   padding: 147px 0 147px 0;
-  p:not(:last-child) {
-    margin-bottom: 16px;
-  }
   form {
     margin-top: -432px;
   }
@@ -167,7 +167,7 @@ h3 + p {
 #index header {
   padding: 56px 0 190px;
   .arrow#one {
-    top: 411px;
+    top: 401px;
   }
   .note#one {
     top: 513px;
@@ -176,7 +176,7 @@ h3 + p {
     top: 700px;
   }
   .arrow#two {
-    top: 146px;
+    top: 136px;
   }
   .note#two {
     top: 270px;
@@ -184,5 +184,231 @@ h3 + p {
 }
 h1 {
   margin-bottom: 64px;
+}
+h3 {
+  margin-bottom: 21px;
+}
+h3 + p {
+  margin-bottom: 25px;
+}
+#asistia {
+  padding: 234px 0 100px 0;
+  h3 {
+    width: 84%;
+  }
+  p {
+    width: 83%;
+  }
+  .device {
+    width: 281px;
+    height: 573px;
+    margin-top: -478px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+#opi {
+  padding: 212px 0 230px 0;
+  .device {
+    background-size: 625px 650px;
+    width: 625px;
+    height: 650px;
+    right: 0;
+    top: -100px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+  p {
+    width: 85%;
+  }
+}
+
+#requester {
+  padding: 231px 0 249px 0;
+  h3 {
+    width: 96%;
+  }
+  p {
+    width: 84%;
+  }
+  .device {
+    background-size: 1055px 1135px;
+    width: 1055px;
+    height: 1135px;
+    left: 0;
+    top: -82px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#services {
+  padding: 167px 0;
+  .underscore#one {
+    top: 940px;
+  }
+  .arrow#one {
+    top: 432px;
+  }
+  .underscore#two {
+    top: 117px;
+  }
+  .arrow#two {
+    top: 1087px;
+  }
+  h4 {
+    margin-bottom: 4px;
+  }
+  .mvp + p, .expansion + p {
+    margin-bottom: 47px;
+  }
+  .mvp, .expansion {
+    margin-top: -57px;
+  }
+  .scale + p {
+    margin-bottom: 112px;
+  }
+}
+
+#close {
+  position: relative;
+  padding: 132px 0;
+  form {
+    margin-top: 80px;
+  }
+  .note {
+    top: 806px;
+  }
+  .arrow#one {
+    top: 1080px;
+  }
+  .underscore#one {
+    top: 749px;
+  }
+  .underscore#two {
+    top: 117px;
+  }
+  .arrow#two {
+    top: 424px;
+  }
+}
+}
+
+
+// SMALL SCREENS
+@media screen and (max-width: 899px) and (min-width: 600px) {
+
+#index header {
+  padding: 56px 0 322px;
+  .note#one {
+    top: 735px;
+  }
+  .underscore {
+    top: 669px;
+  }
+  .arrow#two {
+    top: 144px;
+  }
+  .note#two {
+    top: 591px;
+  }
+}
+h1 {
+  margin-bottom: 23px;
+}
+h3 {
+  margin-bottom: 21px;
+}
+h3 + p {
+  margin-bottom: 25px;
+}
+#asistia {
+  height: 975px;
+  padding-top: 116px;
+  .device {
+    width: 326px;
+    height: 664px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+#opi {
+  padding: 212px 0 230px 0;
+  .device {
+    background-size: 625px 650px;
+    width: 625px;
+    height: 650px;
+    right: 0;
+    top: -100px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+  p {
+    width: 85%;
+  }
+}
+
+#requester {
+  padding: 231px 0 249px 0;
+  h3 {
+    width: 96%;
+  }
+  p {
+    width: 84%;
+  }
+  .device {
+    background-size: 1055px 1135px;
+    width: 1055px;
+    height: 1135px;
+    left: 0;
+    top: -82px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#services {
+  padding: 167px 0;
+  .underscore#one {
+    top: 940px;
+  }
+  .arrow#one {
+    top: 432px;
+  }
+  .underscore#two {
+    top: 117px;
+  }
+  .arrow#two {
+    top: 1087px;
+  }
+  h4 {
+    margin-bottom: 4px;
+  }
+  .mvp + p, .expansion + p {
+    margin-bottom: 47px;
+  }
+  .mvp, .expansion {
+    margin-top: -57px;
+  }
+  .scale + p {
+    margin-bottom: 112px;
+  }
+}
+
+#close {
+  position: relative;
+  padding: 132px 0;
+  form {
+    margin-top: 80px;
+  }
+  .note {
+    top: 806px;
+  }
+  .arrow#one {
+    top: 1080px;
+  }
+  .underscore#one {
+    top: 749px;
+  }
+  .underscore#two {
+    top: 117px;
+  }
+  .arrow#two {
+    top: 424px;
+  }
 }
 }
