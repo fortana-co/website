@@ -809,7 +809,9 @@ table {
 @media screen and (min-width: 1280px) {
   .wrapper {
     padding-left: 90px;
-    padding-right: 90px; }
+    padding-right: 90px;
+    max-width: 1440px;
+    margin: 0 auto; }
   .lg-gutter {
     padding-right: 0 !important; }
   .lg-hidden {
@@ -1301,6 +1303,10 @@ input[type=submit] {
   input[type=text], textarea {
     font-size: 17px; } }
 
+@media screen and (max-width: 899px) and (min-width: 600px) {
+  input[type=text], textarea {
+    font-size: 17px; } }
+
 #nav {
   align-items: center; }
   #nav li {
@@ -1324,7 +1330,7 @@ input[type=submit] {
 
 @media screen and (max-width: 899px) and (min-width: 600px) {
   #nav {
-    margin-bottom: 116px; }
+    margin-bottom: 124px; }
   #logo img {
     width: 80px;
     height: 14px; } }
@@ -1337,7 +1343,8 @@ input[type=submit] {
   box-sizing: border-box; }
 
 #opi {
-  background-color: white; }
+  background-color: white;
+  overflow: hidden; }
   #opi .device {
     display: flex;
     position: absolute;
@@ -1371,17 +1378,18 @@ input[type=submit] {
 
 @media screen and (min-width: 1280px) {
   #index header {
+    position: relative;
     padding: 56px 0 244px; }
     #index header .arrow#one {
       top: 334px; }
     #index header .note#one {
-      top: 670px; }
+      bottom: 106px; }
     #index header .underscore {
-      top: 610px; }
+      bottom: 184px; }
     #index header .arrow#two {
       top: 184px; }
     #index header .note#two {
-      top: 622px; }
+      bottom: 130px; }
     #index header h2 {
       width: 87%;
       margin-top: -63px; }
@@ -1390,14 +1398,13 @@ input[type=submit] {
   h3 + p {
     margin-bottom: 24px; }
   #asistia {
-    height: 840px;
     padding-top: 234px; }
     #asistia h3 {
-      width: 90%; }
+      width: 90%;
+      min-width: 380px; }
     #asistia .device {
-      width: 390px;
-      height: 792px;
-      margin-top: -466px;
+      width: 100%;
+      margin: -112px 0 -22% 0;
       filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #opi {
     padding: 362px 0 293px 0; }
@@ -1412,23 +1419,27 @@ input[type=submit] {
       width: 85%; }
   #requester {
     padding: 231px 0 249px 0; }
+    #requester h3 {
+      width: 88%; }
+    #requester p {
+      width: 80%; }
     #requester .device {
       background-size: 1055px 1135px;
       width: 1055px;
       height: 1135px;
       left: 0;
-      top: -82px;
+      top: -442px;
       filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #services {
     padding: 167px 0; }
     #services .underscore#one {
-      top: 969px; }
+      bottom: 305px; }
     #services .arrow#one {
       top: 540px; }
     #services .underscore#two {
       top: 121px; }
     #services .arrow#two {
-      top: 1132px; }
+      bottom: 93px; }
     #services h4 {
       margin-bottom: 4px; }
     #services .mvp + p, #services .expansion + p {
@@ -1464,48 +1475,53 @@ input[type=submit] {
   #asistia {
     padding: 234px 0 100px 0; }
     #asistia h3 {
-      width: 84%; }
+      width: 84%;
+      min-width: 360px; }
     #asistia p {
       width: 83%; }
     #asistia .device {
-      width: 281px;
-      height: 573px;
-      margin-top: -478px;
+      width: 100%;
+      margin-top: -35%;
       filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
-  #opi {
-    padding: 212px 0 230px 0; }
-    #opi .device {
-      background-size: 625px 650px;
-      width: 625px;
-      height: 650px;
-      right: 0;
-      top: -100px;
-      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
-    #opi p {
-      width: 85%; }
+  #opi h3 {
+    padding-top: 212px;
+    width: 85%;
+    min-width: 360px; }
+  #opi p {
+    width: 85%; }
+  #opi .link {
+    padding-bottom: 230px; }
+  #opi .device {
+    background-size: 625px 650px;
+    width: 625px;
+    height: 650px;
+    right: 0;
+    bottom: 0;
+    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #requester {
     padding: 231px 0 249px 0; }
     #requester h3 {
-      width: 96%; }
+      width: 96%;
+      min-width: 360px; }
     #requester p {
       width: 84%; }
     #requester .device {
-      background-size: 1055px 1135px;
-      width: 1055px;
-      height: 1135px;
+      background-size: 652px 703px;
+      width: 652px;
+      height: 703px;
       left: 0;
-      top: -82px;
+      top: -442px;
       filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #services {
     padding: 167px 0; }
     #services .underscore#one {
-      top: 940px; }
+      bottom: 288px; }
     #services .arrow#one {
       top: 432px; }
     #services .underscore#two {
       top: 117px; }
     #services .arrow#two {
-      top: 1087px; }
+      bottom: 92px; }
     #services h4 {
       margin-bottom: 4px; }
     #services .mvp + p, #services .expansion + p {
@@ -1548,66 +1564,74 @@ input[type=submit] {
   h3 + p {
     margin-bottom: 25px; }
   #asistia {
-    height: 975px;
     padding-top: 116px; }
+    #asistia h3 {
+      width: 86%;
+      max-width: 440px; }
+    #asistia p {
+      max-width: 450px; }
     #asistia .device {
-      width: 326px;
-      height: 664px;
+      width: 100%;
+      margin: 73px 0 -40% 0;
       filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
-  #opi {
-    padding: 212px 0 230px 0; }
-    #opi .device {
-      background-size: 625px 650px;
-      width: 625px;
-      height: 650px;
-      right: 0;
-      top: -100px;
-      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
-    #opi p {
-      width: 85%; }
-  #requester {
-    padding: 231px 0 249px 0; }
-    #requester h3 {
-      width: 96%; }
-    #requester p {
-      width: 84%; }
-    #requester .device {
-      background-size: 1055px 1135px;
-      width: 1055px;
-      height: 1135px;
-      left: 0;
-      top: -82px;
-      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+  #opi h3 {
+    width: 86%;
+    padding-top: 50%; }
+  #opi p {
+    width: 85%; }
+  #opi .link {
+    padding-bottom: 662px; }
+  #opi .device {
+    background-size: 625px 650px;
+    width: 625px;
+    height: 650px;
+    left: 0;
+    bottom: -68px;
+    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+  #requester h3 {
+    width: 96%;
+    padding-top: 116px; }
+  #requester p {
+    width: 84%; }
+  #requester .link {
+    padding-bottom: 654px; }
+  #requester .device {
+    background-size: 652px 703px;
+    width: 652px;
+    height: 703px;
+    left: 0;
+    bottom: -120px;
+    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #services {
-    padding: 167px 0; }
+    padding: 116px 0; }
     #services .underscore#one {
-      top: 940px; }
+      bottom: 296px; }
     #services .arrow#one {
-      top: 432px; }
+      top: 382px; }
     #services .underscore#two {
-      top: 117px; }
+      top: 84px; }
     #services .arrow#two {
-      top: 1087px; }
-    #services h4 {
-      margin-bottom: 4px; }
+      bottom: 52px; }
     #services .mvp + p, #services .expansion + p {
       margin-bottom: 47px; }
     #services .mvp, #services .expansion {
-      margin-top: -57px; }
+      margin-top: 23px; }
     #services .scale + p {
-      margin-bottom: 112px; }
+      margin-bottom: 75px; }
   #close {
     position: relative;
-    padding: 132px 0; }
+    padding: 116px 0; }
+    #close h3 {
+      max-width: 320px; }
     #close form {
-      margin-top: 80px; }
+      margin-top: 71px; }
     #close .note {
-      top: 806px; }
+      bottom: 101px; }
     #close .arrow#one {
-      top: 1080px; }
+      bottom: 55px; }
     #close .underscore#one {
-      top: 749px; }
+      display: none; }
     #close .underscore#two {
       top: 117px; }
     #close .arrow#two {
-      top: 424px; } }
+      bottom: 642px; } }

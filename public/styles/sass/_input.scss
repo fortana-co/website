@@ -68,3 +68,11 @@ input[type=submit] {
     font-size: 17px;
   }
 }
+
+
+// SMALL SCREENS
+@media screen and (max-width: 899px) and (min-width: 600px) {
+  input[type=text], textarea {
+    font-size: 17px;
+  }
+}
