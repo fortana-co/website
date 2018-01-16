@@ -81,6 +81,15 @@ input[type=submit] {
 
 // EXTRA-SMALL SCREENS
 @media screen and (max-width: 599px) and (min-width: 0px) {
+  form:before {
+    content: '';
+    background: url('../assets/images/arrow-green.svg') no-repeat;
+    background-size: 11px 32px;
+    width: 11px;
+    height: 32px;
+    position: absolute;
+    margin: -42px 0 0 -22.9%;
+  }
   input[type=text], textarea, input::placeholder, textarea::placeholder {
     font-size: 15px;
   }

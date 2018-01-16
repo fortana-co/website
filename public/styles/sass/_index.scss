@@ -57,7 +57,7 @@
   position: relative;
   padding: 56px 0 244px;
   .arrow#one {
-    top: 334px;
+    top: 354px;
   }
   .note#one {
     bottom: 106px;
@@ -66,7 +66,7 @@
     bottom: 184px;
   }
   .arrow#two {
-    top: 184px;
+    top: 204px;
   }
   .note#two {
     bottom: 130px;
@@ -137,7 +137,7 @@ h3 + p {
     bottom: 305px;
   }
   .arrow#one {
-    top: 540px;
+    top: 560px;
   }
   .underscore#two {
     top: 121px;
@@ -174,16 +174,16 @@ h3 + p {
 #index header {
   padding: 56px 0 190px;
   .arrow#one {
-    top: 401px;
+    top: 420px;
   }
   .note#one {
-    top: 513px;
+    top: 514px;
   }
   .underscore {
     top: 700px;
   }
   .arrow#two {
-    top: 136px;
+    top: 156px;
   }
   .note#two {
     top: 270px;
@@ -191,6 +191,9 @@ h3 + p {
 }
 h1 {
   margin-bottom: 64px;
+}
+h2 {
+  max-width: 550px;
 }
 h3 {
   margin-bottom: 21px;
@@ -260,7 +263,7 @@ h3 + p {
     bottom: 288px;
   }
   .arrow#one {
-    top: 432px;
+    top: 452px;
   }
   .underscore#two {
     top: 117px;
@@ -292,7 +295,7 @@ h3 + p {
     top: 806px;
   }
   .arrow#one {
-    top: 1080px;
+    bottom: 82px;
   }
   .underscore#one {
     top: 749px;
@@ -301,7 +304,7 @@ h3 + p {
     top: 117px;
   }
   .arrow#two {
-    top: 424px;
+    top: 444px;
   }
 }
 }
@@ -319,7 +322,7 @@ h3 + p {
     top: 669px;
   }
   .arrow#two {
-    top: 144px;
+    top: 164px;
   }
   .note#two {
     top: 591px;
@@ -327,6 +330,9 @@ h3 + p {
 }
 h1 {
   margin-bottom: 23px;
+}
+h2 {
+  max-width: 610px
 }
 h3 {
   margin-bottom: 21px;
@@ -397,13 +403,13 @@ h3 + p {
     bottom: 296px;
   }
   .arrow#one {
-    top: 382px;
+    top: 402px;
   }
   .underscore#two {
     top: 84px;
   }
   .arrow#two {
-    bottom: 52px;
+    bottom: 72px;
   }
   .mvp + p, .expansion + p {
     margin-bottom: 47px;
@@ -429,13 +435,13 @@ h3 + p {
     bottom: 101px;
   }
   .arrow#one {
-    bottom: 55px;
+    bottom: 75px;
   }
-  .underscore#two {
-    top: 117px;
+  .underscore#one {
+    bottom: 380px;
   }
   .arrow#two {
-    bottom: 642px;
+    bottom: 650px;
   }
 }
 }
@@ -451,7 +457,7 @@ h3 + p {
     bottom: 47px;
   }
   .arrow#two {
-    top: 88px;
+    top: 86px;
   }
 }
 h1 {
@@ -548,10 +554,10 @@ p {
     margin-top: 56px;
   }
   .note {
-    bottom: 114px;
+    bottom: 122px;
   }
   .arrow#one {
-    bottom: 68px;
+    bottom: 88px;
   }
   .underscore#one {
     bottom: 233px;
