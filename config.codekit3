@@ -124,6 +124,12 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/assets\/images\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/images\/favicon.ico",
+		"oF": 0
+		},
 	"\/public\/assets\/images\/link-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
