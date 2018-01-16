@@ -1216,6 +1216,43 @@ section .link {
     font-size: 13px;
     line-height: 24px; } }
 
+@media screen and (max-width: 599px) and (min-width: 0px) {
+  h1 {
+    font-size: 52px;
+    line-height: 56px; }
+  h2 {
+    font-size: 26px;
+    line-height: 40px; }
+  h3 {
+    font-size: 35px;
+    line-height: 40px; }
+  h4 {
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    line-height: 32px; }
+  p {
+    font-size: 17px;
+    line-height: 28px; }
+  .link {
+    line-height: 32px; }
+  #nav .link {
+    font-size: 12px;
+    letter-spacing: 1.67px; }
+  section .link {
+    font-size: 13px;
+    letter-spacing: 1.81px; }
+    section .link:before {
+      background-size: 9px 9px;
+      width: 9px;
+      height: 9px;
+      margin-right: 8px; }
+  .note {
+    font-size: 13px;
+    line-height: 24px; } }
+
+.decoration ul, .decoration span {
+  z-index: 0; }
+
 .arrow, .underscore, .note {
   position: absolute; }
 
@@ -1249,7 +1286,8 @@ form {
   align-items: flex-end; }
 
 input, textarea {
-  border: none; }
+  border: none;
+  z-index: 1; }
 
 input[type=text], textarea {
   font-family: 'din-regular', sans-serif;
@@ -1300,40 +1338,66 @@ input[type=submit] {
 @media screen and (max-width: 1279px) and (min-width: 900px) {
   form {
     align-items: flex-start; }
-  input[type=text], textarea {
+  input[type=text], textarea, input::placeholder, textarea::placeholder {
     font-size: 17px; } }
 
 @media screen and (max-width: 899px) and (min-width: 600px) {
-  input[type=text], textarea {
+  input[type=text], textarea, input::placeholder, textarea::placeholder {
     font-size: 17px; } }
 
+@media screen and (max-width: 599px) and (min-width: 0px) {
+  input[type=text], textarea, input::placeholder, textarea::placeholder {
+    font-size: 15px; }
+  input[type=text], textarea {
+    max-width: 380px; }
+  input[type=text] {
+    margin-bottom: 8px; }
+  textarea {
+    margin-bottom: 24px; }
+  input[type=submit] {
+    font-size: 11px;
+    letter-spacing: 1.53px;
+    width: 121px;
+    padding: 9px 12px 7px 12px; } }
+
 #nav {
+  display: flex;
   align-items: center; }
   #nav li {
     display: inline-flex; }
   #nav li:not(:last-child) {
     margin-right: 70px; }
 
+#logo {
+  display: flex; }
+
 @media screen and (min-width: 1280px) {
   #nav {
     margin-bottom: 150px; }
   #logo img {
     width: 88px;
-    height: 15px; } }
+    height: auto; } }
 
 @media screen and (max-width: 1279px) and (min-width: 900px) {
   #nav {
     margin-bottom: 139px; }
   #logo img {
     width: 88px;
-    height: 15px; } }
+    height: auto; } }
 
 @media screen and (max-width: 899px) and (min-width: 600px) {
   #nav {
     margin-bottom: 124px; }
   #logo img {
     width: 80px;
-    height: 14px; } }
+    height: auto; } }
+
+@media screen and (max-width: 599px) and (min-width: 0px) {
+  #nav {
+    margin-bottom: 98px; }
+  #logo img {
+    width: 75px;
+    height: auto; } }
 
 #index header {
   background-color: white; }
@@ -1576,7 +1640,7 @@ input[type=submit] {
       filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
   #opi h3 {
     width: 86%;
-    padding-top: 50%; }
+    padding-top: 60%; }
   #opi p {
     width: 85%; }
   #opi .link {
@@ -1629,9 +1693,85 @@ input[type=submit] {
       bottom: 101px; }
     #close .arrow#one {
       bottom: 55px; }
-    #close .underscore#one {
-      display: none; }
     #close .underscore#two {
       top: 117px; }
     #close .arrow#two {
       bottom: 642px; } }
+
+@media screen and (max-width: 599px) and (min-width: 0px) {
+  #index header {
+    padding: 28px 0 101px;
+    position: relative; }
+    #index header .underscore {
+      bottom: 47px; }
+    #index header .arrow#two {
+      top: 88px; }
+  h1 {
+    margin-bottom: 17px; }
+  h2 {
+    max-width: 430px; }
+  h3 {
+    margin-bottom: 21px;
+    max-width: 400px; }
+  h3 + p {
+    margin-bottom: 19px; }
+  p {
+    max-width: 440px; }
+  #asistia {
+    padding-top: 79px; }
+    #asistia .device {
+      width: 94%;
+      margin: 45px auto -36% auto;
+      display: flex;
+      filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+  #opi h3 {
+    padding-top: 48%; }
+  #opi p {
+    width: 85%; }
+  #opi .link {
+    padding-bottom: 628px; }
+  #opi .device {
+    background-size: 625px 650px;
+    width: 625px;
+    height: 650px;
+    left: 0;
+    bottom: -68px;
+    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+  #requester h3 {
+    padding-top: 79px; }
+  #requester p {
+    width: 84%; }
+  #requester .link {
+    padding-bottom: 630px; }
+  #requester .device {
+    background-size: 652px 703px;
+    width: 652px;
+    height: 703px;
+    left: 0;
+    bottom: -118px;
+    filter: drop-shadow(0 40px 100px rgba(37, 38, 50, 0.1)); }
+  #services {
+    padding: 79px 0; }
+    #services .underscore#one {
+      bottom: 40px; }
+    #services .arrow#one {
+      top: 512px; }
+    #services .underscore#two {
+      top: 60px; }
+    #services .mvp + p, #services .expansion + p {
+      margin-bottom: 30px; }
+    #services .mvp, #services .expansion {
+      margin-top: 13px; }
+    #services .scale + p {
+      margin-bottom: 70px; }
+  #close {
+    position: relative;
+    padding: 79px 0 217px 0; }
+    #close form {
+      margin-top: 56px; }
+    #close .note {
+      bottom: 114px; }
+    #close .arrow#one {
+      bottom: 68px; }
+    #close .underscore#one {
+      bottom: 233px; } }

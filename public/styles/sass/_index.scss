@@ -352,7 +352,7 @@ h3 + p {
 #opi {
   h3 {
     width: 86%;
-    padding-top: 50%;
+    padding-top: 60%;
   }
   p {
     width: 85%;
@@ -431,9 +431,6 @@ h3 + p {
   .arrow#one {
     bottom: 55px;
   }
-  .underscore#one {
-    display: none;
-  }
   .underscore#two {
     top: 117px;
   }
@@ -441,4 +438,123 @@ h3 + p {
     bottom: 642px;
   }
 }
+}
+
+
+// EXTRA-SMALL SCREENS
+
+@media screen and (max-width: 599px) and (min-width: 0px) {
+#index header {
+  padding: 28px 0 101px;
+  position: relative;
+  .underscore {
+    bottom: 47px;
+  }
+  .arrow#two {
+    top: 88px;
+  }
+}
+h1 {
+  margin-bottom: 17px;
+}
+h2 {
+    max-width: 430px;
+}
+h3 {
+  margin-bottom: 21px;
+  max-width: 400px;
+}
+h3 + p {
+  margin-bottom: 19px;
+}
+p {
+  max-width: 440px;
+}
+#asistia {
+  padding-top: 79px;
+  .device {
+    width: 94%;
+    margin: 45px auto -36% auto;
+    display: flex;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+#opi {
+  h3 {
+    padding-top: 48%;
+  }
+  p {
+    width: 85%;
+  }
+  .link {
+    padding-bottom: 628px;
+  }
+  .device {
+    background-size: 625px 650px;
+    width: 625px;
+    height: 650px;
+    left: 0;
+    bottom: -68px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#requester {
+  h3 {
+    padding-top: 79px;
+  }
+  p {
+    width: 84%;
+  }
+  .link {
+    padding-bottom: 630px;
+  }
+  .device {
+    background-size: 652px 703px;
+    width: 652px;
+    height: 703px;
+    left: 0;
+    bottom: -118px;
+    filter: drop-shadow(0 40px 100px $strong-shadow);
+  }
+}
+
+#services {
+  padding: 79px 0;
+  .underscore#one {
+    bottom: 40px;
+  }
+  .arrow#one {
+    top: 512px;
+  }
+  .underscore#two {
+    top: 60px;
+  }
+  .mvp + p, .expansion + p {
+    margin-bottom: 30px;
+  }
+  .mvp, .expansion {
+    margin-top: 13px;
+  }
+  .scale + p {
+    margin-bottom: 70px;
+  }
+}
+
+#close {
+  position: relative;
+  padding: 79px 0 217px 0;
+  form {
+    margin-top: 56px;
+  }
+  .note {
+    bottom: 114px;
+  }
+  .arrow#one {
+    bottom: 68px;
+  }
+  .underscore#one {
+    bottom: 233px;
+  }
+  }
 }

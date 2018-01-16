@@ -205,3 +205,50 @@ section .link {
   line-height: 24px;
 }
 }
+
+
+// EXTRA-SMALL SCREENS
+@media screen and (max-width: 599px) and (min-width: 0px) {
+h1 {
+  font-size: 52px;
+  line-height: 56px;
+}
+h2 {
+  font-size: 26px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 35px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  line-height: 32px;
+}
+p {
+  font-size: 17px;
+  line-height: 28px;
+}
+.link {
+  line-height: 32px;
+}
+#nav .link {
+  font-size: 12px;
+  letter-spacing: 1.67px;
+}
+section .link {
+  font-size: 13px;
+  letter-spacing: 1.81px;
+  &:before {
+    background-size: 9px 9px;
+    width: 9px;
+    height: 9px;
+    margin-right: 8px;
+  }
+}
+.note {
+  font-size: 13px;
+  line-height: 24px;
+}
+}

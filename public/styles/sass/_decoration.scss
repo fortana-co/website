@@ -1,3 +1,7 @@
+.decoration ul, .decoration span {
+  z-index: 0;
+}
+
 .arrow, .underscore, .note {
   position: absolute;
 }
