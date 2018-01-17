@@ -9,7 +9,7 @@ input, textarea {
   z-index: 1;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
   @include din-regular;
   @include antialiased;
   font-size: 18px;
@@ -22,7 +22,7 @@ input[type=text], textarea {
   }
 }
 
-input[type=text] {
+input[type=text], input[type=email] {
   margin-bottom: 16px;
   padding: 22px 0 20px 23px;
 }
@@ -65,7 +65,7 @@ input[type=submit] {
   form {
     align-items: flex-start;
   }
-  input[type=text], textarea, input::placeholder, textarea::placeholder {
+  input[type=text], input[type=email], textarea, input::placeholder, textarea::placeholder {
     font-size: 17px;
   }
 }
@@ -73,7 +73,7 @@ input[type=submit] {
 
 // SMALL SCREENS
 @media screen and (max-width: 899px) and (min-width: 600px) {
-  input[type=text], textarea, input::placeholder, textarea::placeholder {
+  input[type=text], input[type=email], textarea, input::placeholder, textarea::placeholder {
     font-size: 17px;
   }
 }
@@ -90,13 +90,13 @@ input[type=submit] {
     position: absolute;
     margin: -42px 0 0 -22.9%;
   }
-  input[type=text], textarea, input::placeholder, textarea::placeholder {
+  input[type=text], input[type=email], textarea, input::placeholder, textarea::placeholder {
     font-size: 15px;
   }
-  input[type=text], textarea {
+  input[type=text], input[type=email], textarea {
     max-width: 380px;
   }
-  input[type=text] {
+  input[type=text], input[type=email] {
     margin-bottom: 8px;
   }
   textarea {

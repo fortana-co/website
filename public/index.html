@@ -211,12 +211,14 @@
 
       <div class="row">
         <div class="col-lg-4 col-lg-offset-7 col-md-5 col-md-offset-6 col-sm-8 col-sm-offset-3 col-xs-4">
-          <form action="" method="post">
+          <form action="https://formspree.io/er.mancera@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Full Name">
             <input type="text" name="org" placeholder="Organization">
-            <input type="text" name="email" placeholder="Email Address">
+            <input type="email" required name="_replyto" placeholder="Email Address">
             <textarea name="project" placeholder="Project Details"></textarea>
             <input type="submit" value="SEND">
+            <input type="hidden" name="_cc" value="kylebebak@gmail.com" />
+            <input type="hidden" name="_next" value="//fortana.co/thanks" />
           </form>
         </div>
       </div>
