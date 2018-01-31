@@ -35,7 +35,7 @@
     transition-delay: .1s !important;
   }
   header .arrow.aos-animate {
-    transition-delay: .5s !important;
+    transition-delay: 0s !important;
   }
   header .underscore.aos-animate {
     transition-delay: .2s !important;
@@ -51,5 +51,15 @@
   }
   [data-aos=slide-up].aos-animate {
     transform: translateY(0) !important;
+  }
+  #header .decoration {
+    [data-aos=fade] {
+      opacity: 1 !important;
+    }
+  }
+  #close .decoration {
+    [data-aos=fade] {
+      opacity: 1 !important;
+    }
   }
 }
