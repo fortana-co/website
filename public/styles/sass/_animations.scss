@@ -38,7 +38,7 @@
     transition-delay: .5s !important;
   }
   header .underscore.aos-animate {
-    transition-delay: .8s !important;
+    transition-delay: .2s !important;
   }
   img.device.aos-animate {
     transition-delay: .3s !important;
@@ -47,7 +47,7 @@
     transition-delay: .1s !important;
   }
   [data-aos=slide-up] {
-    transform: translateY(7%) !important;
+    transform: translateY(5%) !important;
   }
   [data-aos=slide-up].aos-animate {
     transform: translateY(0) !important;
