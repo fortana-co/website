@@ -34,7 +34,19 @@
   h2.aos-animate {
     transition-delay: .1s !important;
   }
+  .arrow.aos-animate {
+    transition-delay: .5s !important;
+  }
+  .underscore.aos-animate {
+    transition-delay: .8s !important;
+  }
   form.aos-animate {
     transition-delay: .1s !important;
+  }
+  [data-aos=slide-up] {
+    transform: translateY(4%) !important;
+  }
+  [data-aos=slide-up].aos-animate {
+    transform: translateY(0) !important;
   }
 }
