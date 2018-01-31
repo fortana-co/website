@@ -21,10 +21,12 @@
 
 [data-aos=slide-up] {
   transform: translateY(10%) !important;
+  will-change: transform;
 }
 
 [data-aos=slide-up].aos-animate {
   transform: translateY(0) !important;
+  will-change: transform;
 }
 
 @media screen and (max-width: 599px) and (min-width: 0px) {
