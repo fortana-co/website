@@ -18,3 +18,23 @@
     visibility: hidden;
   }
 }
+
+[data-aos=slide-up] {
+  transform: translateY(10%) !important;
+}
+
+[data-aos=slide-up].aos-animate {
+  transform: translateY(0) !important;
+}
+
+@media screen and (max-width: 599px) and (min-width: 0px) {
+  h1.aos-animate {
+    transition-delay: .1s !important;
+  }
+  h2.aos-animate {
+    transition-delay: .1s !important;
+  }
+  form.aos-animate {
+    transition-delay: .1s !important;
+  }
+}
