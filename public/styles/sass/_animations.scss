@@ -48,12 +48,6 @@
   form.aos-animate {
     transition-delay: .1s !important;
   }
-  [data-aos=slide-up] {
-    transform: translateY(5%) !important;
-  }
-  [data-aos=slide-up].aos-animate {
-    transform: translateY(0) !important;
-  }
   #header .decoration {
     [data-aos=fade] {
       opacity: 1 !important;
