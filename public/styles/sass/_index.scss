@@ -32,7 +32,7 @@
 }
 
 #services {
-  background-color: #273348;
+  background-color: $blue;
   position: relative;
   z-index: 2;
   h3 {
@@ -55,7 +55,7 @@
 
 #index header {
   position: relative;
-  padding: 56px 0 244px;
+  padding-bottom: 244px;
   .arrow#one {
     top: 354px;
   }
