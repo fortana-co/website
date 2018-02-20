@@ -1,0 +1,27 @@
+.portrait-wrap {
+  display: flex;
+}
+
+.portrait-wrap#eduardo {
+  width: 413px;
+  height: 311px;
+}
+
+#eduardo .portrait {
+  background: url('../assets/images/eduardo.jpg') no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+.portrait-wrap#kyle {
+  width: 305px;
+  height: 410px;
+}
+
+#kyle .portrait {
+  background: url('../assets/images/kyle.jpg') no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+
