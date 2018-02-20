@@ -122,7 +122,7 @@ h1 {
 }
 
 .cdmx-wrap {
-  width: 622px;
+  width: 100%;
   height: 408px;
 }
 
@@ -175,36 +175,48 @@ h1 {
   margin-bottom: 75px;
 }
 
+.founder-wrap {
+  display: flex;
+  flex-direction: column;
+  h4 {
+    margin-top: 41px;
+  }
+  p {
+    height: 108px;
+  }
+}
+
 .img-wrap#eduardo {
   width: 100%;
   height: 252px;
-  margin: 99px 0 49px 0;
 }
 
 #eduardo .portrait {
   background: url('../assets/images/eduardo.jpg') no-repeat;
   background-size: cover;
-  width: 120%;
-  height: 120%;
+  width: 100%;
+  height: 100%;
 }
 
 .img-wrap#kyle {
   width: 100%;
   height: 357px;
-  margin-bottom: 49px;
 }
 
 #kyle .portrait {
   background: url('../assets/images/kyle.jpg') no-repeat;
   background-size: cover;
-  width: 120%;
-  height: 120%;
+  width: 100%;
+  height: 100%;
 }
 
 #offer {
-  padding: 170px 0 119px 0;
+  padding: 140px 0 118px 0;
   #strategy, #design {
-    margin-top: 21px;
+    margin-top: 45px;
+  }
+  h3 {
+    margin-bottom: 0px;
   }
   h4 {
     padding-left: 16px;
@@ -219,7 +231,7 @@ h1 {
     margin: 9px 0 0 -20px;
   }
   ul {
-    margin-bottom: 50px;
+    margin-bottom: 34px;
   }
   li {
     opacity: 0.8;
@@ -243,19 +255,16 @@ h1 {
 }
 
 #location {
-  padding: 168px 0;
-  h3 {
-    margin-top: 36px;
-  }
+  padding: 149px 0;
 }
 
 .cdmx-wrap {
-  width: 622px;
+  width: 100%;
   height: 408px;
 }
 
 .cdmx-wrap#aerial {
-  margin-bottom: 128px;
+  margin-bottom: 76px;
 }
 
 #aerial .cdmx {
@@ -263,6 +272,10 @@ h1 {
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+
+.cdmx-wrap#downtown {
+  margin: 82px 0 88px 0;
 }
 
 #downtown .cdmx {
@@ -273,11 +286,10 @@ h1 {
 }
 
 #address {
-  margin-top: 78px;
 }
 
 #contact {
-  margin-top: 28px;
+
 }
 
 }
