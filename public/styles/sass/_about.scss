@@ -483,30 +483,23 @@
 @media screen and (max-width: 599px) and (min-width: 0px) {
 
 #about header {
-  padding-bottom: 137px;
-  position: relative;
+  padding: 28px 0 137px 0;
   h1 {
-    font-size: 66px;
-    letter-spacing: -0.6px;
-    line-height: 80px;
+    font-size: 52px;
+    letter-spacing: -0.7px;
+    line-height: 56px;
     margin-bottom: 112px;
   }
   .arrow#one {
-    top: 156px;
+    top: 85px;
   }
   .underscore#one {
-    top: 708px;
-  }
-  .arrow#two {
-    bottom: 535px;
-  }
-  .underscore#two {
-    bottom: 112px;
+    top: 469px;
   }
 }
 
 #about #nav {
-  margin-bottom: 93px;
+  margin-bottom: 96px;
 }
 
 .founder-wrap {
