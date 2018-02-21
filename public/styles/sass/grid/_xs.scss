@@ -6,7 +6,17 @@
     padding-right: 20px;
   }
 
-  .xs-gutter {
+  .wrap-xs {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nowrap-xs {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .gutter-xs {
     padding-right: 0 !important;
   }
 

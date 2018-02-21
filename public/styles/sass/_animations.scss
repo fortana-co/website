@@ -29,6 +29,16 @@
   will-change: transform;
 }
 
+[data-aos=fade-up] {
+  transform: translateY(10%) !important;
+  will-change: transform;
+}
+
+[data-aos=fade-up].aos-animate {
+  transform: translateY(0) !important;
+  will-change: transform;
+}
+
 @media screen and (max-width: 599px) and (min-width: 0px) {
   h1.aos-animate {
     transition-delay: .1s !important;
