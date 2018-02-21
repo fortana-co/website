@@ -23,6 +23,9 @@
 
 #about header {
   padding-bottom: 177px;
+  h1 {
+    margin-bottom: 113px;
+  }
   .arrow#one {
     bottom: 281px;
   }
@@ -34,8 +37,8 @@
   }
 }
 
-h1 {
-  margin-bottom: 113px;
+#about #nav {
+  margin-bottom: 150px;
 }
 
 .founder-wrap {
@@ -160,11 +163,13 @@ h1 {
 }
 
 
-
 @media screen and (max-width: 1279px) and (min-width: 900px) {
 
 #about header {
   padding-bottom: 189px;
+  h1 {
+    margin-bottom: 75px;
+  }
   .arrow#one {
     top: 188px;
   }
@@ -176,8 +181,8 @@ h1 {
   }
 }
 
-h1 {
-  margin-bottom: 75px;
+#about #nav {
+  margin-bottom: 140px;
 }
 
 .founder-wrap {
@@ -260,9 +265,25 @@ h1 {
 }
 
 #location {
+  position: relative;
   padding: 149px 0;
   p {
     width: 80%;
+  }
+  .underscore#one {
+    bottom: 176px;
+  }
+  .arrow#one {
+    top: 716px;
+  }
+  .arrow#two {
+    bottom: 79px;
+  }
+  .underscore#two {
+    top: 412px;
+  }
+  .underscore#three {
+    bottom: 488px;
   }
 }
 
@@ -299,11 +320,318 @@ h1 {
   justify-content: space-between;
 }
 
-#address {
 }
 
-#contact {
 
+@media screen and (max-width: 899px) and (min-width: 600px) {
+
+#about header {
+  padding-bottom: 137px;
+  position: relative;
+  h1 {
+    font-size: 66px;
+    letter-spacing: -0.6px;
+    line-height: 80px;
+    margin-bottom: 112px;
+  }
+  .arrow#one {
+    top: 156px;
+  }
+  .underscore#one {
+    top: 708px;
+  }
+  .arrow#two {
+    bottom: 535px;
+  }
+  .underscore#two {
+    bottom: 112px;
+  }
+}
+
+#about #nav {
+  margin-bottom: 93px;
+}
+
+.founder-wrap {
+  display: flex;
+  flex-direction: column;
+  h4 {
+    margin-top: 58px;
+  }
+}
+
+.img-wrap#eduardo {
+  align-self: flex-end;
+  width: 89%;
+  height: 264px;
+}
+
+#eduardo .portrait {
+  background: url('../assets/images/eduardo.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img-wrap#kyle {
+  margin-top: 92px;
+  width: 59%;
+  height: 352px;
+}
+
+#kyle .portrait {
+  background: url('../assets/images/kyle.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#kyle + h4 {
+  padding-left: 31%;
+}
+
+#kyle + h4 + p {
+  padding-left: 31%;
+}
+
+#offer {
+  position: relative;
+  padding: 116px 0 113px 0;
+  .underscore#one {
+    bottom: 160px;
+  }
+  .arrow#two {
+    top: 331px;
+  }
+  .underscore#two {
+    bottom: 536px;
+  }
+  #strategy {
+    margin-top: 53px;
+  }
+  h3 {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-bottom: 34px;
+  }
+  li {
+    opacity: 0.8;
+    @include din-regular;
+    @include antialiased;
+    font-size: 19px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+}
+
+#location {
+  position: relative;
+  padding: 120px 0;
+  p {
+    width: 80%;
+  }
+  h3 {
+    margin: 383px 0 11px 0;
+  }
+}
+
+.cdmx-wrap {
+  width: 100%;
+  height: 313px;
+}
+
+.cdmx-wrap#aerial {
+  position: absolute;
+  width: 79.75%;
+  left: 0;
+  margin-bottom: 76px;
+}
+
+#aerial .cdmx {
+  background: url('../assets/images/mexico-city-aerial.jpg') top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cdmx-wrap#downtown {
+  margin-top: 77px;
+  position: absolute;
+  width: 79.75%;
+  right: 0;
+}
+
+#downtown .cdmx {
+  background: url('../assets/images/mexico-city-downtown.jpg') top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.details-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 460px;
+}
+
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 0px) {
+
+#about header {
+  padding-bottom: 137px;
+  position: relative;
+  h1 {
+    font-size: 66px;
+    letter-spacing: -0.6px;
+    line-height: 80px;
+    margin-bottom: 112px;
+  }
+  .arrow#one {
+    top: 156px;
+  }
+  .underscore#one {
+    top: 708px;
+  }
+  .arrow#two {
+    bottom: 535px;
+  }
+  .underscore#two {
+    bottom: 112px;
+  }
+}
+
+#about #nav {
+  margin-bottom: 93px;
+}
+
+.founder-wrap {
+  display: flex;
+  flex-direction: column;
+  h4 {
+    margin-top: 58px;
+  }
+}
+
+.img-wrap#eduardo {
+  align-self: flex-end;
+  width: 89%;
+  height: 264px;
+}
+
+#eduardo .portrait {
+  background: url('../assets/images/eduardo.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img-wrap#kyle {
+  margin-top: 92px;
+  width: 59%;
+  height: 352px;
+}
+
+#kyle .portrait {
+  background: url('../assets/images/kyle.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#kyle + h4 {
+  padding-left: 31%;
+}
+
+#kyle + h4 + p {
+  padding-left: 31%;
+}
+
+#offer {
+  position: relative;
+  padding: 116px 0 113px 0;
+  .underscore#one {
+    bottom: 160px;
+  }
+  .arrow#two {
+    top: 331px;
+  }
+  .underscore#two {
+    bottom: 536px;
+  }
+  #strategy {
+    margin-top: 53px;
+  }
+  h3 {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-bottom: 34px;
+  }
+  li {
+    opacity: 0.8;
+    @include din-regular;
+    @include antialiased;
+    font-size: 19px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+}
+
+#location {
+  position: relative;
+  padding: 120px 0;
+  p {
+    width: 80%;
+  }
+  h3 {
+    margin: 383px 0 11px 0;
+  }
+}
+
+.cdmx-wrap {
+  width: 100%;
+  height: 313px;
+}
+
+.cdmx-wrap#aerial {
+  position: absolute;
+  width: 79.75%;
+  left: 0;
+  margin-bottom: 76px;
+}
+
+#aerial .cdmx {
+  background: url('../assets/images/mexico-city-aerial.jpg') top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cdmx-wrap#downtown {
+  margin-top: 77px;
+  position: absolute;
+  width: 79.75%;
+  right: 0;
+}
+
+#downtown .cdmx {
+  background: url('../assets/images/mexico-city-downtown.jpg') top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.details-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 460px;
 }
 
 }

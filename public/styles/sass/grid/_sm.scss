@@ -3,9 +3,18 @@
 
   // GENERAL
 
+  .relative-sm {
+    position: relative;
+  }
+
   .wrapper {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .nowrap-sm {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .sm-gutter {

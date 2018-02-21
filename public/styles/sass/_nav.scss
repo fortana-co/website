@@ -8,9 +8,6 @@ header {
   li {
     display: inline-flex;
   }
-  li:not(:last-child) {
-    margin-right: 70px;
-  }
 }
 
 #logo {
@@ -18,8 +15,8 @@ header {
 }
 
 @media screen and (min-width: 1280px) {
-  #nav {
-    margin-bottom: 150px;
+  #nav li:not(:last-child) {
+    margin-right: 86px;
   }
   #logo img {
     width: 88px;
@@ -28,8 +25,8 @@ header {
 }
 
 @media screen and (max-width: 1279px) and (min-width: 900px) {
-  #nav {
-    margin-bottom: 139px;
+  #nav li:not(:last-child) {
+    margin-right: 70px;
   }
   #logo img {
     width: 88px;
@@ -38,8 +35,8 @@ header {
 }
 
 @media screen and (max-width: 899px) and (min-width: 600px) {
-  #nav {
-    margin-bottom: 124px;
+  #nav li:not(:last-child) {
+    margin-right: 38px;
   }
   #logo img {
     width: 80px;
@@ -48,9 +45,6 @@ header {
 }
 
 @media screen and (max-width: 599px) and (min-width: 0px) {
-  #nav {
-    margin-bottom: 98px;
-  }
   #logo img {
     width: 75px;
     height: auto;
