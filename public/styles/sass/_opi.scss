@@ -8,30 +8,38 @@
       opacity: 1.0;
     }
   }
+  h4 {
+    color: $grey-5;
+  }
 }
 
 .img-wrap {
   display: flex;
 }
 
+.aside-wrap.small .aside {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 
 @media screen and (min-width: 1280px) {
 
 #opi-case {
-  #nav {
-    margin-bottom: 150px;
-  }
   header {
     padding-bottom: 262px;
-  }
-  h1 {
-    padding-bottom: 50px;
-  }
-  .aside-wrap:not(:last-of-type) {
-    margin-bottom: 28px;
-  }
-  .aside-wrap#org {
-    margin-top: 50px;
+    #nav {
+      margin-bottom: 150px;
+    }
+    h1 {
+      padding-bottom: 50px;
+    }
+    .aside-wrap:not(:last-of-type) {
+      margin-bottom: 28px;
+    }
+    .aside-wrap#org {
+      margin-top: 50px;
+    }
   }
   section#results {
     padding: 179px 0;
@@ -50,6 +58,103 @@
       display: flex;
     }
   }
+  section#insights {
+    padding: 176px 0 170px 0;
+    background-color: #FAFAFA;
+    h4:first-of-type {
+      margin-top: 21px;
+    }
+    p:not(:last-of-type) {
+      margin-bottom: 42px;
+    }
+    .aside-wrap:first-of-type {
+      margin-top: 52px;
+    }
+    .aside-wrap:not(:last-of-type) {
+      margin-bottom: 31px;
+    }
+    .aside.title {
+      padding-left: 17px;
+      margin-bottom: 9px;
+    }
+    .aside.title:before {
+      content: '';
+      background: url(../assets/images/h4-arrow.svg) no-repeat;
+      background-size: 100% 100%;
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      margin: 6px 0 0 -18px;
+    }
+  }
+  section#features {
+    padding: 173px 0;
+    .measurement {
+      h4 {
+        margin-top: 55px;
+      }
+      img {
+        width: 100%;
+        margin: -73px auto 0 auto;
+        display: flex;
+      }
+    }
+    .intuition {
+      margin-top: 111px;
+      h4 {
+        margin-top: 177px;
+      }
+      .img-wrap {
+        display: flex;
+        position: relative;
+        width: 100%;
+      }
+      img {
+        position: absolute;
+        width: 81%;
+      }
+      #status {
+        z-index: 1;
+        left: 0;
+        margin-top: 56px;
+        box-shadow: 0 15px 40px 0 rgba(37,38,50,0.08);
+      }
+      #prediction {
+        z-index: 2;
+        right: 0;
+        box-shadow: 0 15px 40px 0 rgba(37,38,50,0.08);
+      }
+    }
+    .tailor-made {
+      margin-top: 300px;
+      h4 {
+        margin-top: 177px;
+      }
+      .img-wrap {
+        display: flex;
+        position: relative;
+        width: 100%;
+      }
+      img {
+        position: absolute;
+      }
+      #brand {
+        z-index: 2;
+        left: 0;
+        box-shadow: 0 15px 40px 0 rgba(37,38,50,0.08);
+        width: 77.2%;
+      }
+      #traffic {
+        z-index: 1;
+        right: 0;
+        box-shadow: 0 15px 40px 0 rgba(37,38,50,0.08);
+        width: 81.2%;
+        margin-top: 183px;
+      }
+    }
+  }
 }
+
+
 
 }
