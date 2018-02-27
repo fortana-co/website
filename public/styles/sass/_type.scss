@@ -184,6 +184,10 @@ p {
   font-size: 18px;
   line-height: 36px;
 }
+p.large {
+  font-size: 26px;
+  line-height: 40px;
+}
 .link {
   line-height: 32px;
 }
@@ -204,6 +208,20 @@ section .link {
 .note {
   font-size: 14px;
   line-height: 24px;
+}
+.aside {
+  font-size: 15px;
+}
+.metric .title {
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  margin-bottom: 1px;
+}
+.metric .value {
+  font-size: 54px;
+  letter-spacing: -1.68px;
+  line-height: 46px;
 }
 }
 
@@ -251,6 +269,9 @@ section .link {
 .note {
   font-size: 13px;
   line-height: 24px;
+}
+.aside {
+  font-size: 15px;
 }
 }
 
