@@ -27,6 +27,7 @@
 
 #opi-case {
   header {
+    position: relative;
     padding-bottom: 262px;
     #nav {
       margin-bottom: 150px;
@@ -39,6 +40,15 @@
     }
     .aside-wrap#org {
       margin-top: 50px;
+    }
+    .underscore#one {
+      bottom: 383px;
+    }
+    .arrow {
+      top: 156px;
+    }
+    .underscore#two {
+      bottom: 135px;
     }
   }
   section#results {
