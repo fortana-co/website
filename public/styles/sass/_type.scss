@@ -27,6 +27,15 @@ p {
   color: #535457;
 }
 
+p.large {
+  opacity: 0.9;
+  @include din-light;
+  font-size: 30px;
+  color: #2B2C30;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -39,7 +48,8 @@ a {
 }
 
 #nav .link {
-  color: #606164;
+  color: $grey-5;
+  opacity: 0.75;
   text-transform: uppercase;
   &:hover {
     color: $green-2;
@@ -73,6 +83,7 @@ section .link {
   color: #2B2C30;
   letter-spacing: 0.34px;
   line-height: 32px;
+  display: flex;
 }
 
 .aside.title {
@@ -80,6 +91,26 @@ section .link {
   @include din-bold;
   line-height: 24px;
   margin-bottom: 4px;
+}
+
+.metric .title {
+  opacity: 0.8;
+  @include din-bold;
+  font-size: 11px;
+  color: $green-2;
+  letter-spacing: 1.21px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.metric .value {
+  opacity: 0.95;
+  @include din-light;
+  font-size: 60px;
+  color: $grey-5;
+  letter-spacing: 0;
+  line-height: 50px;
 }
 
 
