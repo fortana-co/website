@@ -1,4 +1,3 @@
-// _sm.scss
 @media screen and (max-width: 899px) and (min-width: 600px) {
 
   // GENERAL
@@ -155,7 +154,6 @@
   .first-sm {
     @include order(-1);
   }
-
   .last-sm {
     @include order(1);
   }

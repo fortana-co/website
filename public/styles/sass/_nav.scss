@@ -1,5 +1,5 @@
 header {
-  padding-top: 56px;
+  padding-top: 57px;
 }
 
 #nav {
@@ -12,8 +12,14 @@ header {
 
 #logo {
   display: flex;
+  opacity: 0.9;
+  &:hover {
+    opacity: 1.0;
+  }
 }
 
+
+// LARGE
 @media screen and (min-width: 1280px) {
   #nav li:not(:last-child) {
     margin-right: 86px;
@@ -24,6 +30,8 @@ header {
   }
 }
 
+
+// MEDIUM
 @media screen and (max-width: 1279px) and (min-width: 900px) {
   #nav li:not(:last-child) {
     margin-right: 70px;
@@ -34,9 +42,17 @@ header {
   }
 }
 
+
+// SMALL
 @media screen and (max-width: 899px) and (min-width: 600px) {
-  #nav li:not(:last-child) {
-    margin-right: 38px;
+  header {
+    padding-top: 62px;
+  }
+  #nav {
+    align-items: baseline;
+    li:not(:last-child) {
+      margin-right: 38px;
+    }
   }
   #logo img {
     width: 80px;
@@ -44,6 +60,8 @@ header {
   }
 }
 
+
+// EXTRA-SMALL
 @media screen and (max-width: 599px) and (min-width: 0px) {
   #logo img {
     width: 75px;

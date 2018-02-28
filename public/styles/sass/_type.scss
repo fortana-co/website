@@ -132,6 +132,7 @@ h4 {
   font-size: 17px;
   letter-spacing: 0.8px;
   line-height: 32px;
+  margin-bottom: 5px;
 }
 p {
   font-size: 19px;
@@ -179,6 +180,7 @@ h4 {
   font-size: 17px;
   letter-spacing: 0.8px;
   line-height: 32px;
+  margin-bottom: 5px;
 }
 p {
   font-size: 18px;
@@ -244,10 +246,15 @@ h4 {
   font-size: 17px;
   letter-spacing: 0.8px;
   line-height: 32px;
+  margin-bottom: 5px;
 }
 p {
   font-size: 18px;
   line-height: 36px;
+}
+p.large {
+  font-size: 24px;
+  line-height: 40px;
 }
 .link {
   line-height: 32px;
@@ -273,6 +280,17 @@ section .link {
 .aside {
   font-size: 15px;
 }
+.metric .title {
+  font-size: 10px;
+  letter-spacing: 1.21px;
+  line-height: 32px;
+  margin-bottom: 3px;
+}
+.metric .value {
+  font-size: 50px;
+  letter-spacing: -1.55px;
+  line-height: 46px;
+}
 }
 
 
@@ -294,6 +312,7 @@ h4 {
   font-size: 16px;
   letter-spacing: 0.75px;
   line-height: 32px;
+  margin-bottom: 2px;
 }
 p {
   font-size: 17px;
