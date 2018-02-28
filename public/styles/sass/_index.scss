@@ -173,7 +173,7 @@ h3 + p {
 @media screen and (max-width: 1279px) and (min-width: 900px) {
 
 #index header {
-  padding: 56px 0 190px;
+  padding-bottom: 190px;
   .arrow#one {
     top: 420px;
   }
@@ -315,7 +315,7 @@ h3 + p {
 @media screen and (max-width: 899px) and (min-width: 600px) {
 
 #index header {
-  padding: 56px 0 322px;
+  padding-bottom: 322px;
   .note#one {
     top: 735px;
   }
@@ -452,10 +452,9 @@ h3 + p {
 
 
 // EXTRA-SMALL SCREENS
-
 @media screen and (max-width: 599px) and (min-width: 0px) {
 #index header {
-  padding: 28px 0 101px;
+  padding-bottom: 101px;
   position: relative;
   .underscore {
     bottom: 47px;

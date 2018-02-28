@@ -89,6 +89,7 @@ section .link {
 .aside.title {
   display: flex;
   @include din-bold;
+  @include antialiased;
   line-height: 24px;
   margin-bottom: 4px;
 }
@@ -318,6 +319,10 @@ p {
   font-size: 17px;
   line-height: 28px;
 }
+p.large {
+  font-size: 20px;
+  line-height: 32px;
+}
 .link {
   line-height: 32px;
 }
@@ -338,5 +343,19 @@ section .link {
 .note {
   font-size: 13px;
   line-height: 24px;
+}
+.aside {
+  font-size: 15px;
+}
+.metric .title {
+  font-size: 10px;
+  letter-spacing: 1.21px;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.metric .value {
+  font-size: 48px;
+  letter-spacing: -2.09px;
+  line-height: 46px;
 }
 }

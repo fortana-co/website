@@ -63,6 +63,12 @@ header {
 
 // EXTRA-SMALL
 @media screen and (max-width: 599px) and (min-width: 0px) {
+  header {
+    padding-top: 22px;
+  }
+  #nav {
+    align-items: baseline;
+  }
   #logo img {
     width: 75px;
     height: auto;
