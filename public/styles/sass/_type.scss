@@ -70,6 +70,21 @@ section .link {
   }
 }
 
+section .link#inactive {
+  color: $grey-2;
+  display: flex;
+  align-items: center;
+  cursor: default;
+  &:before {
+    content: '';
+    background: url('../assets/images/link-arrow-inactive.svg') no-repeat;
+    display: inline-flex;
+  }
+  &:hover {
+    color: $grey-2;
+  }
+}
+
 .note {
   @include din-medium;
   @include antialiased;
