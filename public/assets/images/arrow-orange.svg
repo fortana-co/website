@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>&gt; copy</title>
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="1440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-302.000000, -3987.000000)" font-family="NeuzeitGro-Bla, Neuzeit Grotesk" font-size="22" font-weight="700" line-spacing="32">
-        <g id="services" transform="translate(0.000000, 3427.000000)" fill="#F39F0A">
-            <g id="decoration" transform="translate(197.000000, 95.000000)">
-                <text id="&gt;-copy">
-                    <tspan x="105" y="470">&gt;</tspan>
-                </text>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1440" transform="translate(-302.000000, -3987.000000)" fill="#F39F0A">
+            <g id="services" transform="translate(0.000000, 3427.000000)">
+                <g id="decoration" transform="translate(197.000000, 121.000000)">
+                    <g id="Group-14" transform="translate(105.000000, 438.000000)">
+                        <polygon id="&gt;-copy" points="0.726 14.208 0.726 10.578 6.402 7.564 0.726 4.528 0.726 0.942 10.252 6.046 10.252 9.104"></polygon>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

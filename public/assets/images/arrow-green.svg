@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 10</title>
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="900" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-734.000000, -4821.000000)" font-family="NeuzeitGro-Bla, Neuzeit Grotesk" font-size="22" font-weight="700" line-spacing="32" opacity="0.75">
-        <g id="close" transform="translate(109.000000, 4493.000000)" fill="#0DA781">
-            <g id="decoration" transform="translate(69.000000, 0.000000)">
-                <g id="Group-10" transform="translate(556.000000, 318.000000)">
-                    <text id="&gt;-copy">
-                        <tspan x="0" y="15">&gt;</tspan>
-                    </text>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.75">
+        <g id="1440" transform="translate(-1153.000000, -204.000000)" fill="#0DA781">
+            <g id="hero" transform="translate(90.000000, 57.000000)">
+                <g id="decorations" transform="translate(0.000000, 137.000000)">
+                    <g id="Group-13" transform="translate(1063.000000, 9.000000)">
+                        <polygon id="&gt;" points="0.726 14.208 0.726 10.578 6.402 7.564 0.726 4.528 0.726 0.942 10.252 6.046 10.252 9.104"></polygon>
+                    </g>
                 </g>
             </g>
         </g>

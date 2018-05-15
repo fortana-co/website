@@ -165,7 +165,6 @@ section .link {
   letter-spacing: 1.95px;
   &:before {
     background: url('../assets/images/link-arrow.svg') no-repeat;
-    background-size: 11px 11px;
     width: 11px;
     height: 11px;
     margin-right: 8px;
@@ -174,7 +173,6 @@ section .link {
 section .link#inactive {
   &:before {
     background: url('../assets/images/link-arrow-inactive.svg') no-repeat;
-    background-size: 100% 100%;
     width: 11px;
     height: 11px;
     margin-right: 8px;
