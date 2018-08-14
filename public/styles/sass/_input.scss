@@ -59,6 +59,13 @@ input[type=submit] {
   }
 }
 
+input[type=submit].submitting {
+  background-color: #60C4AB !important;
+}
+input[type=submit].error {
+  background-color: $orange !important;
+}
+
 
 // MEDIUM SCREENS
 @media screen and (max-width: 1279px) and (min-width: 900px) {

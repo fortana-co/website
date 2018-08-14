@@ -60,7 +60,7 @@ def lambda_handler(event, context):
     body = parse_qs(event['body'])  # Content-Type: application/x-www-form-urlencoded
     name, org, email, project = body['name'][0], body['org'][0], body['email'][0], body['project'][0]
 
-    send_email(['kyle@fortana.co'], f'New Lead - {name}',
+    send_email(['kyle@fortana.co', 'eddie@fortana.co'], f'New Lead - {name}',
                f"""Someone filled out Fortana's lead form with the following information:<br><br>
                <b>Name</b>: {name}<br>
                <b>Organization</b>: {org}<br>
