@@ -13,6 +13,7 @@ input[type=text], input[type=email], textarea {
   @include din-regular;
   @include antialiased;
   font-size: 18px;
+  line-height: 27px;
   color: #B9B9BA;
   background-color: #F7F7F7;
   width: 100%;
@@ -24,7 +25,7 @@ input[type=text], input[type=email], textarea {
 
 input[type=text], input[type=email] {
   margin-bottom: 16px;
-  padding: 22px 0 20px 23px;
+  padding: 20px 0 17px 23px;
 }
 
 textarea {
