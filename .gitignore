@@ -1,3 +1,5 @@
 */styles/*.css
 node_modules/
 config.codekit3
+
+sandbox/*
