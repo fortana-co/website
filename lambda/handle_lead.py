@@ -19,7 +19,7 @@ def send_email(
     to: List[str],
     subject: str,
     body: str,
-    source: str = 'Fortana <donotreply@brigada.mx>',
+    source: str = 'Fortana <donotreply@fortana.co>',
     reply_to: List[str] = None,
     **kwargs,
 ):
