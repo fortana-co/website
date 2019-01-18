@@ -2,32 +2,11 @@
   background-color: white;
 }
 
-#brigada {
+#work {
   background-color: #FAFAFA;
-  box-sizing: border-box;
-}
-
-#opi {
-  background-color: white;
-  overflow: hidden;
-  .device {
-    display: flex;
-    position: absolute;
-    z-index: 0;
-    background: url('../assets/images/opi-device.png') no-repeat;
-  }
-}
-
-#requester {
-  background-color: #FAFAFA;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  .device {
-    display: flex;
-    position: absolute;
-    z-index: 0;
-    background: url('../assets/images/requester-device.png') no-repeat;
+  .project-img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -89,48 +68,29 @@ h3 + p {
   margin-bottom: 24px;
 }
 
-#brigada {
-  padding-top: 234px;
+#work {
+  padding: 176px 0 167px 0;
+  .project-img {
+    box-shadow: 0 40px 100px 0 rgba(37,38,50,0.10);
+    margin-bottom: 26px;
+  }
   h3 {
-    min-width: 380px;
-  }
-  .device {
-    width: 100%;
-    margin: -112px 0 -22% 0;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
-
-#opi {
-  padding: 362px 0 293px 0;
-  .device {
-    background-size: 1033px 1072px;
-    width: 1033px;
-    height: 1072px;
-    right: 0;
-    top: -106px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+    margin-bottom: 1px;
   }
   p {
-    width: 85%;
+    margin-bottom: 15px;
   }
-}
-
-#requester {
-  padding: 231px 0 249px 0;
-  h3 {
-    width: 88%;
+  #opi-feature {
+    margin-top: 305px;
   }
-  p {
-    width: 80%;
+  #brigada-feature {
+    margin-top: -42px;
   }
-  .device {
-    background-size: 1055px 1135px;
-    width: 1055px;
-    height: 1135px;
-    left: 0;
-    top: -442px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+  #outvote-feature {
+    margin-top: 230px;
+  }
+  #beam-feature {
+    margin-top: -42px;
   }
 }
 
@@ -204,59 +164,30 @@ h3 {
 h3 + p {
   margin-bottom: 25px;
 }
-#brigada {
-  padding: 234px 0 100px 0;
-  h3 {
-    width: 84%;
-    min-width: 360px;
-  }
-  p {
-    width: 83%;
-  }
-  .device {
-    width: 100%;
-    margin-top: -35%;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
-#opi {
-  h3 {
-    padding-top: 212px;
-    width: 85%;
-    min-width: 360px;
-  }
-  p {
-    width: 85%;
-  }
-  .link {
-    margin-bottom: 230px;
-  }
-  .device {
-    background-size: 625px 650px;
-    width: 625px;
-    height: 650px;
-    right: 0;
-    bottom: 0;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
 
-#requester {
-  padding: 231px 0 249px 0;
+#work {
+  padding: 120px 0 111px 0;
+  .project-img {
+    box-shadow: 0 40px 100px 0 rgba(37,38,50,0.10);
+    margin-bottom: 26px;
+  }
   h3 {
-    width: 96%;
-    min-width: 360px;
+    margin-bottom: 0px;
   }
   p {
-    width: 84%;
+    margin-bottom: 16px;
   }
-  .device {
-    background-size: 652px 703px;
-    width: 652px;
-    height: 703px;
-    left: 0;
-    top: -442px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+  #opi-feature {
+    margin-top: 257px;
+  }
+  #brigada-feature {
+    margin-top: -19px;
+  }
+  #outvote-feature {
+    margin-top: 197px;
+  }
+  #beam-feature {
+    margin-top: -20px;
   }
 }
 
@@ -343,60 +274,30 @@ h3 {
 h3 + p {
   margin-bottom: 25px;
 }
-#brigada {
-  padding-top: 116px;
-  h3 {
-    width: 86%;
-    max-width: 440px;
-  }
-  p {
-    max-width: 450px;
-  }
-  .device {
-    width: 100%;
-    margin: 73px 0 -40% 0;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
-#opi {
-  h3 {
-    width: 86%;
-    padding-top: 60%;
-  }
-  p {
-    width: 85%;
-  }
-  .link {
-    margin-bottom: 662px;
-  }
-  .device {
-    background-size: 625px 650px;
-    width: 625px;
-    height: 650px;
-    left: 0;
-    bottom: -68px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
 
-#requester {
+#work {
+  padding: 128px 0 119px 0;
+  .project-img {
+    box-shadow: 0 40px 100px 0 rgba(37,38,50,0.10);
+    margin-bottom: 26px;
+  }
   h3 {
-    width: 96%;
-    padding-top: 116px
+    margin-bottom: 0px;
   }
   p {
-    width: 84%;
+    margin-bottom: 15px;
   }
-  .link {
-    margin-bottom: 654px;
+  #opi-feature {
+    margin-top: 93px;
   }
-  .device {
-    background-size: 652px 703px;
-    width: 652px;
-    height: 703px;
-    left: 0;
-    bottom: -120px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+  #brigada-feature {
+    margin-top: 93px;
+  }
+  #outvote-feature {
+    margin-top: 93px;
+  }
+  #beam-feature {
+    margin-top: 93px;
   }
 }
 
@@ -481,52 +382,38 @@ h3 + p {
 p {
   max-width: 440px;
 }
-#brigada {
-  padding-top: 79px;
-  .device {
-    width: 94%;
-    margin: 45px auto -36% auto;
-    display: flex;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
-#opi {
-  h3 {
-    padding-top: 48%;
-  }
-  p {
-    width: 85%;
-  }
-  .link {
-    margin-bottom: 628px;
-  }
-  .device {
-    background-size: 625px 650px;
-    width: 625px;
-    height: 650px;
-    left: 0;
-    bottom: -68px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
-  }
-}
 
-#requester {
+#work {
+  padding: 73px 0 62px 0;
+  .project-img {
+    box-shadow: 0 20px 50px 0 rgba(37,38,50,0.10);
+    margin: 29px 0 26px 0;
+    order: 1;
+  }
   h3 {
-    padding-top: 79px;
+    margin-bottom: 2px;
   }
   p {
-    width: 84%;
+    margin-bottom: 15px;
   }
-  .link {
-    margin-bottom: 630px;
+  #vote-org-feature {
+    display: flex;
+    flex-direction: column;
   }
-  .device {
-    background-size: 652px 703px;
-    width: 652px;
-    height: 703px;
-    left: 0;
-    bottom: -118px;
-    filter: drop-shadow(0 40px 100px $strong-shadow);
+  #opi-feature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  #outvote-feature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  #beam-feature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
   }
 }
 
