@@ -25,6 +25,39 @@
   }
 }
 
+#testimonial {
+  border-bottom: 1px solid rgba(43,44,48,0.08);
+  #client-quote {
+    @include din-light;
+    @include antialiased;
+    color: #2B2C30;
+    opacity: 0.9;
+    position: relative;
+    &:before {
+      content: "“";
+      @include din-light;
+      @include antialiased;
+      color: #2B2C30;
+      opacity: 0.9;
+      position: absolute;
+      left: -11px;
+    }
+  }
+  .aside.title {
+    padding-left: 18px;
+    margin-bottom: 1px;
+    &:before {
+      content: '';
+      background: url(../assets/images/link-arrow.svg) no-repeat;
+      background-size: 100% 100%;
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      margin: 6px 0 0 -19px;
+    }
+  }
+}
+
 #close p:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -116,6 +149,25 @@ h3 + p {
   }
   .scale + p {
     margin-bottom: 112px;
+  }
+}
+
+#testimonial {
+  padding: 145px 0 149px 0;
+  h3 {
+    margin-top: 52px;
+  }
+  .aside-wrap {
+    margin-top: 74px;
+  }
+  #client-quote {
+    margin-top: -17px;
+    font-size: 26px;
+    line-height: 40px;
+    &:before {
+      font-size: 26px;
+      line-height: 40px;
+    }
   }
 }
 
@@ -213,6 +265,30 @@ h3 + p {
   }
   .scale + p {
     margin-bottom: 112px;
+  }
+}
+
+#testimonial {
+  padding: 129px 0 135px 0;
+  .client-img-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h3 {
+    margin-top: 55px;
+  }
+  .aside-wrap {
+    margin-top: 53px;
+  }
+  #client-quote {
+    margin-top: -16px;
+    font-size: 24px;
+    line-height: 32px;
+    &:before {
+      left: -10px;
+      font-size: 24px;
+      line-height: 32px;
+    }
   }
 }
 
@@ -326,12 +402,33 @@ h3 + p {
   }
 }
 
+#testimonial {
+  padding: 113px 0 108px 0;
+  .client-img {
+    width: 128px;
+    height: 128px;
+  }
+  h3 {
+    margin-top: 79px;
+  }
+  .aside-wrap {
+    margin-top: 62px;
+  }
+  #client-quote {
+    margin-top: 4px;
+    font-size: 24px;
+    line-height: 32px;
+    &:before {
+      font-size: 24px;
+      line-height: 32px;
+      left: -9px;
+    }
+  }
+}
+
 #close {
   position: relative;
   padding: 116px 0;
-  h3 {
-    max-width: 320px;
-  }
   form {
     margin-top: 71px;
   }
@@ -436,6 +533,29 @@ p {
   }
   .scale + p {
     margin-bottom: 70px;
+  }
+}
+
+#testimonial {
+  padding: 64px 0 60px 0;
+  .client-img {
+    width: 75%;
+    height: auto;
+  }
+  h3 {
+    margin-top: 106px;
+  }
+  .aside-wrap {
+    margin-top: 39px;
+  }
+  #client-quote {
+    font-size: 20px;
+    line-height: 28px;
+    &:before {
+      font-size: 20px;
+      line-height: 28px;
+      left: -8px;
+    }
   }
 }
 
