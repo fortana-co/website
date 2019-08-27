@@ -53,6 +53,17 @@ nav .link {
   text-transform: uppercase;
   &:hover {
     color: $green-2;
+    opacity: 1.0;
+  }
+}
+
+footer nav .link {
+  color: $grey-5;
+  opacity: 0.5;
+  text-transform: uppercase;
+  &:hover {
+    color: $green-2;
+    opacity: 1.0;
   }
 }
 

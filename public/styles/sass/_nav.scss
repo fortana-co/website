@@ -10,6 +10,18 @@ nav {
   }
 }
 
+footer nav {
+  align-items: center;
+  border-top: 1px solid rgba(43,44,48,0.08);
+  .social-icon {
+    display: inline-flex;
+    transition: all 0.15s;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
 #logo {
   display: flex;
   opacity: 0.9;
@@ -28,6 +40,9 @@ nav {
     width: 88px;
     height: auto;
   }
+  footer nav {
+    padding: 68px 0 65px 0;
+  }
 }
 
 
@@ -39,6 +54,9 @@ nav {
   #logo img {
     width: 88px;
     height: auto;
+  }
+  footer nav {
+    padding: 59px 0 57px 0;
   }
 }
 
@@ -58,6 +76,13 @@ nav {
     width: 80px;
     height: auto;
   }
+  footer nav {
+    padding: 52px 0 51px 0;
+    .social-icon img {
+      width: 29px;
+      height: 29px;
+    }
+  }
 }
 
 
@@ -73,5 +98,11 @@ nav {
     width: 75px;
     height: auto;
   }
-
+  footer nav {
+    padding: 43px 0 40px 0;
+    .social-icon img {
+      width: 29px;
+      height: 29px;
+    }
+  }
 }
