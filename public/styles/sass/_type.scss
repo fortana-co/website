@@ -47,12 +47,23 @@ a {
   cursor: pointer;
 }
 
-#nav .link {
+nav .link {
   color: $grey-5;
   opacity: 0.75;
   text-transform: uppercase;
   &:hover {
     color: $green-2;
+    opacity: 1.0;
+  }
+}
+
+footer nav .link {
+  color: $grey-5;
+  opacity: 0.5;
+  text-transform: uppercase;
+  &:hover {
+    color: $green-2;
+    opacity: 1.0;
   }
 }
 
@@ -156,7 +167,7 @@ p {
 .link {
   line-height: 32px;
 }
-#nav .link {
+nav .link {
   font-size: 13px;
   letter-spacing: 1.81px;
 }
@@ -219,7 +230,7 @@ p.large {
 .link {
   line-height: 32px;
 }
-#nav .link {
+nav .link {
   font-size: 13px;
   letter-spacing: 1.81px;
 }
@@ -295,7 +306,7 @@ p.large {
 .link {
   line-height: 32px;
 }
-#nav .link {
+nav .link {
   font-size: 12px;
   letter-spacing: 1.67px;
 }
@@ -371,7 +382,7 @@ p.large {
 .link {
   line-height: 32px;
 }
-#nav .link {
+nav .link {
   font-size: 12px;
   letter-spacing: 1.67px;
 }

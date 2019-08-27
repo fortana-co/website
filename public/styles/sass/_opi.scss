@@ -1,10 +1,10 @@
 #opi-case {
   header {
     background-color: $blue;
-    #nav .link, p, h1, .aside {
+    nav .link, p, h1, .aside {
       color: $white;
     }
-    #nav .link:hover {
+    nav .link:hover {
       opacity: 1.0;
     }
   }
@@ -29,7 +29,7 @@
   header {
     position: relative;
     padding-bottom: 262px;
-    #nav {
+    nav {
       margin-bottom: 150px;
     }
     h1 {
@@ -172,7 +172,7 @@
   header {
     position: relative;
     padding-bottom: 113px;
-    #nav {
+    nav {
       margin-bottom: 140px;
     }
     h1 {
@@ -320,7 +320,7 @@
   header {
     position: relative;
     padding-bottom: 88px;
-    #nav {
+    nav {
       margin-bottom: 93px;
     }
     h1 {
@@ -463,7 +463,7 @@
   header {
     position: relative;
     padding-bottom: 81px;
-    #nav {
+    nav {
       margin-bottom: 96px;
     }
     h1 {
