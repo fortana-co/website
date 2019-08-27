@@ -1,7 +1,3 @@
-#index header {
-  background-color: white;
-}
-
 #work {
   background-color: #FAFAFA;
   .project-img {
@@ -62,12 +58,19 @@
   margin-bottom: 16px;
 }
 
+footer nav {
+
+}
+
 // LARGE SCREENS
 @media screen and (min-width: 1280px) {
 
 #index header {
   position: relative;
   padding-bottom: 244px;
+  nav {
+    margin-bottom: 150px;
+  }
   .arrow#one {
     top: 354px;
   }
@@ -84,13 +87,9 @@
     bottom: 130px;
   }
   h2 {
-  width: 87%;
-  margin-top: -63px;
+    width: 87%;
+    margin-top: -63px;
   }
-}
-
-#index #nav {
-  margin-bottom: 150px;
 }
 
 h3 {
@@ -185,6 +184,9 @@ h3 + p {
 
 #index header {
   padding-bottom: 190px;
+  nav {
+    margin-bottom: 139px;
+  }
   .arrow#one {
     top: 420px;
   }
@@ -201,9 +203,7 @@ h3 + p {
     top: 270px;
   }
 }
-#index #nav {
-  margin-bottom: 139px;
-}
+
 h1 {
   margin-bottom: 64px;
 }
@@ -322,6 +322,9 @@ h3 + p {
 
 #index header {
   padding-bottom: 322px;
+  nav {
+    margin-bottom: 124px;
+  }
   .note#one {
     top: 735px;
   }
@@ -334,9 +337,6 @@ h3 + p {
   .note#two {
     top: 591px;
   }
-}
-#index #nav {
-  margin-bottom: 124px;
 }
 h1 {
   margin-bottom: 23px;
@@ -453,15 +453,15 @@ h3 + p {
 #index header {
   padding-bottom: 101px;
   position: relative;
+  nav {
+    margin-bottom: 98px;
+  }
   .underscore {
     bottom: 47px;
   }
   .arrow#two {
     top: 86px;
   }
-}
-#index #nav {
-  margin-bottom: 98px;
 }
 h1 {
   margin-bottom: 17px;
